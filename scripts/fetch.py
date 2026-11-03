@@ -120,7 +120,33 @@ def main():
     except Exception as e:
         errors.append(f"KARI: {e}")
     items = [i for i in items if not i["end"] or i["end"] >= today]
-    items.sort(key=lambda i: (i["end"] or "9999", i["org_short"]))
+    # 공개(items)와 확인 대기(pending) 나누기: 클로드가 보충해 공개한 항목만 items에 남긴다
+    cp0 = os.path.join(ROOT, "data/jcy_calendar.json")
+    prev0 = json.load(open(cp0, encoding="utf-8")) if os.path.exists(cp0) else {}
+    published = {i["id"]: i for i in prev0.get("items", []) if i.get("checked_by")}
+    prev_pending = {i["id"]: i for i in prev0.get("pending", [])}
+    pub, pend = [], []
+    for it in items:
+        if it["id"] in published:
+            keep = dict(published[it["id"]])
+            for k in ("title", "start", "end", "status", "url"):
+                if keep.get(k) != it[k]:
+                    keep.setdefault("changed", []).append(k)
+                keep[k] = it[k]
+            pub.append(keep)
+        else:
+            reasons = ["지원 학위 확인 필요"]
+            if not it["start"] or not it["end"]:
+                reasons.append("접수 기간 없음")
+            if it["category"] == "기타":
+                reasons.append("종류 분류 안 됨")
+            if not it["job_types"]:
+                reasons.append("직군 제목에 없음")
+            it["reasons"] = reasons
+            it["found_at"] = prev_pending.get(it["id"], {}).get("found_at", today)
+            pend.append(it)
+    items = sorted(pub, key=lambda i: (i["end"] or "9999", i["org_short"]))
+    pend.sort(key=lambda i: (i["end"] or "9999", i["org_short"]))
     # 누리집 게시판 새 글 → review_queue
     sp = os.path.join(ROOT, "data/seen_boards.json")
     seen = json.load(open(sp, encoding="utf-8")) if os.path.exists(sp) else {}
@@ -147,11 +173,11 @@ def main():
     cp = os.path.join(ROOT, "data/jcy_calendar.json")
     prev = json.load(open(cp, encoding="utf-8")) if os.path.exists(cp) else {}
     old_q = [q for q in prev.get("review_queue", []) if q.get("found_at", "") >= (now - timedelta(days=30)).strftime("%Y-%m-%d")]
-    out = {"version": 1, "updated_at": now.isoformat(timespec="seconds"), "month": now.strftime("%Y-%m"),
-           "note": "items는 기관 채용 시스템의 공고 제목·접수 기간을 그대로 옮긴 것. category·job_types는 제목에서 추정. degrees는 공고 원문 확인 전이라 비움. review_queue는 사람 확인 전이라 캘린더에 띄우지 않는다.",
-           "items": items, "review_queue": old_q + queue, "errors": errors}
+    out = {"version": 2, "updated_at": now.isoformat(timespec="seconds"), "month": now.strftime("%Y-%m"),
+           "note": "캘린더는 items만 띄운다. items = 클로드가 공고 원문으로 학위·직군을 확인해 공개한 것(checked_by 있음). pending = 자동 수집했지만 확인 전. review_queue = 누리집 게시판 새 글(확인 전). errors = 열리지 않은 출처(클로드가 다른 길로 확인).",
+           "items": items, "pending": pend, "review_queue": old_q + queue, "errors": errors}
     json.dump(out, open(cp, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print(f"items {len(items)} (정규직 {sum(i['category']=='정규직' for i in items)}), review_queue +{len(queue)}, errors {len(errors)}")
+    print(f"items {len(items)}, pending {len(pend)} (정규직 {sum(i['category']=='정규직' for i in pend)}), review_queue +{len(queue)}, errors {len(errors)}")
     for e in errors:
         print("  error:", e)
 
