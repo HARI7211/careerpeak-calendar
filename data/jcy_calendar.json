@@ -165,24 +165,6 @@
    "checked_at": "2026-11-03T15:28:36+09:00"
   },
   {
-   "id": "KASI-33",
-   "org": "한국천문연구원",
-   "org_short": "KASI",
-   "title": "2026년 제1차 실무직(조리원-무기계약직) 채용",
-   "category": "비정규·기타",
-   "job_types": [],
-   "degrees": [],
-   "start": "2026-10-22",
-   "end": "2026-11-06",
-   "status": "접수 중",
-   "url": "https://kasi.fairy.im/announcement/detail/33",
-   "source": "fairy",
-   "degree_note": "학력·연령·성별·전공 제한 없음, 보건증 소지자(실무직 조리원)",
-   "evidence": "공고문 이미지 1쪽 채용개요·지원자격 표",
-   "checked_by": "claude",
-   "checked_at": "2026-11-03T15:28:36+09:00"
-  },
-  {
    "id": "KITECH-129",
    "org": "한국생산기술연구원",
    "org_short": "KITECH",
@@ -494,24 +476,6 @@
    "checked_at": "2026-11-03T15:28:36+09:00"
   },
   {
-   "id": "WIKIM-17",
-   "org": "세계김치연구소",
-   "org_short": "WIKIM",
-   "title": "2026년 제9차 직원 채용(무기계약직-전문기술요원) 공고",
-   "category": "비정규·기타",
-   "job_types": [],
-   "degrees": [],
-   "start": "2026-11-02",
-   "end": "2026-11-17",
-   "status": "접수 중",
-   "url": "https://wikim.fairy.im/announcement/detail/17",
-   "source": "fairy",
-   "degree_note": "전문기술요원(청사 경비·환경미화), 학위 무관, 광주지방보훈청 추천 취업지원대상자만 지원 가능",
-   "evidence": "공고문 PDF 1쪽 무기계약직 모집분야 표, 2쪽 지원자격",
-   "checked_by": "claude",
-   "checked_at": "2026-11-03T15:28:36+09:00"
-  },
-  {
    "id": "KIMM-22",
    "org": "한국기계연구원",
    "org_short": "KIMM",
@@ -538,6 +502,46 @@
   }
  ],
  "pending": [
+  {
+   "id": "KASI-33",
+   "org": "한국천문연구원",
+   "org_short": "KASI",
+   "title": "2026년 제1차 실무직(조리원-무기계약직) 채용",
+   "category": "비정규·기타",
+   "job_types": [],
+   "degrees": null,
+   "start": "2026-10-22",
+   "end": "2026-11-06",
+   "status": "접수 중",
+   "url": "https://kasi.fairy.im/announcement/detail/33",
+   "source": "fairy",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "직군 제목에 없음"
+   ],
+   "found_at": "2026-11-03",
+   "check_note": "제외: 실무직 조리원. 대표님 지시(2026-11-03) 연구·기술·행정 이외 직종(조리·경비·미화 등)은 캘린더에 넣지 않음"
+  },
+  {
+   "id": "WIKIM-17",
+   "org": "세계김치연구소",
+   "org_short": "WIKIM",
+   "title": "2026년 제9차 직원 채용(무기계약직-전문기술요원) 공고",
+   "category": "비정규·기타",
+   "job_types": [],
+   "degrees": null,
+   "start": "2026-11-02",
+   "end": "2026-11-17",
+   "status": "접수 중",
+   "url": "https://wikim.fairy.im/announcement/detail/17",
+   "source": "fairy",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "직군 제목에 없음"
+   ],
+   "found_at": "2026-11-03",
+   "check_note": "제외: 전문기술요원(청사 경비·환경미화). 대표님 지시(2026-11-03) 연구·기술·행정 이외 직종(조리·경비·미화 등)은 캘린더에 넣지 않음"
+  },
   {
    "id": "ETRI-30",
    "org": "한국전자통신연구원",
