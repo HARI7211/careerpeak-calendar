@@ -503,46 +503,6 @@
  ],
  "pending": [
   {
-   "id": "KASI-33",
-   "org": "한국천문연구원",
-   "org_short": "KASI",
-   "title": "2026년 제1차 실무직(조리원-무기계약직) 채용",
-   "category": "비정규·기타",
-   "job_types": [],
-   "degrees": null,
-   "start": "2026-10-22",
-   "end": "2026-11-06",
-   "status": "접수 중",
-   "url": "https://kasi.fairy.im/announcement/detail/33",
-   "source": "fairy",
-   "reasons": [
-    "지원 학위 확인 필요",
-    "직군 제목에 없음"
-   ],
-   "found_at": "2026-11-03",
-   "check_note": "제외: 실무직 조리원. 대표님 지시(2026-11-03) 연구·기술·행정 이외 직종(조리·경비·미화 등)은 캘린더에 넣지 않음"
-  },
-  {
-   "id": "WIKIM-17",
-   "org": "세계김치연구소",
-   "org_short": "WIKIM",
-   "title": "2026년 제9차 직원 채용(무기계약직-전문기술요원) 공고",
-   "category": "비정규·기타",
-   "job_types": [],
-   "degrees": null,
-   "start": "2026-11-02",
-   "end": "2026-11-17",
-   "status": "접수 중",
-   "url": "https://wikim.fairy.im/announcement/detail/17",
-   "source": "fairy",
-   "reasons": [
-    "지원 학위 확인 필요",
-    "직군 제목에 없음"
-   ],
-   "found_at": "2026-11-03",
-   "check_note": "제외: 전문기술요원(청사 경비·환경미화). 대표님 지시(2026-11-03) 연구·기술·행정 이외 직종(조리·경비·미화 등)은 캘린더에 넣지 않음"
-  },
-  {
    "id": "ETRI-30",
    "org": "한국전자통신연구원",
    "org_short": "ETRI",
@@ -586,5 +546,29 @@
  "review_queue": [],
  "errors": [
   "KRRI 게시판: <urlopen error _ssl.c:993: The handshake operation timed out>"
+ ],
+ "excluded": [
+  {
+   "id": "KASI-33",
+   "org": "한국천문연구원",
+   "org_short": "KASI",
+   "title": "2026년 제1차 실무직(조리원-무기계약직) 채용",
+   "end": "2026-11-06",
+   "url": "https://kasi.fairy.im/announcement/detail/33",
+   "reason": "실무직 조리원. 대표님 지시(2026-11-03): 연구·기술·행정 이외 직종만 뽑는 공고는 캘린더에 넣지 않음",
+   "excluded_by": "claude",
+   "excluded_at": "2026-11-03"
+  },
+  {
+   "id": "WIKIM-17",
+   "org": "세계김치연구소",
+   "org_short": "WIKIM",
+   "title": "2026년 제9차 직원 채용(무기계약직-전문기술요원) 공고",
+   "end": "2026-11-17",
+   "url": "https://wikim.fairy.im/announcement/detail/17",
+   "reason": "전문기술요원(청사 경비·환경미화). 대표님 지시(2026-11-03): 연구·기술·행정 이외 직종만 뽑는 공고는 캘린더에 넣지 않음",
+   "excluded_by": "claude",
+   "excluded_at": "2026-11-03"
+  }
  ]
 }
