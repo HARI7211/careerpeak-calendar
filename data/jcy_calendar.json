@@ -68,7 +68,9 @@
    "degree_note": "학력·전공 제한 없음, 변호사 자격 필수",
    "evidence": "공고문 이미지 1 모집분야 표(직종 기술직, 학력 제한없음), 직무기술서 PDF(붙임1) 필요자격",
    "checked_by": "claude",
-   "checked_at": "2026-11-03T15:28:36+09:00"
+   "checked_at": "2026-11-03T15:28:36+09:00",
+   "column_url": "https://www.careerpeak.co.kr/66/?bmode=view&idx=172233042",
+   "column_title": "한국원자력연구원 행정직 채용, 6단계 전형과 자소서 4문항"
   },
   {
    "id": "KARI-23508",
@@ -382,7 +384,9 @@
    "degree_note": "최종학위 학사 또는 석사 취득자(3개월 이내 취득 예정자 포함)",
    "evidence": "공고문 PDF 1쪽 지원자격 마항",
    "checked_by": "claude",
-   "checked_at": "2026-11-03T15:28:36+09:00"
+   "checked_at": "2026-11-03T15:28:36+09:00",
+   "column_url": "https://www.careerpeak.co.kr/66/?bmode=view&idx=173385689",
+   "column_title": "KIST 채용, 행정직은 무엇을 보고 뽑는가"
   },
   {
    "id": "KIST-43",
@@ -473,7 +477,9 @@
    "degree_note": "위촉행정원(육아휴직 대체) 1명, 학위·전공 무관",
    "evidence": "공고문 PDF 1쪽 별정직 모집분야 표",
    "checked_by": "claude",
-   "checked_at": "2026-11-03T15:28:36+09:00"
+   "checked_at": "2026-11-03T15:28:36+09:00",
+   "column_url": "https://www.careerpeak.co.kr/66/?bmode=view&idx=173872746",
+   "column_title": "정출연 행정직 채용, 필기·서류·면접은 무엇을 보나"
   },
   {
    "id": "KIMM-22",
@@ -498,7 +504,9 @@
    "degree_note": "연구직 5개 분야 석사 이상, 행정직 2개 분야 학력 제한 없음",
    "evidence": "공고문 이미지 모집분야 표 학력 열, 직무기술서 ZIP 안 PDF 7개 교육요건",
    "checked_by": "claude",
-   "checked_at": "2026-11-03T15:28:36+09:00"
+   "checked_at": "2026-11-03T15:28:36+09:00",
+   "column_url": "https://www.careerpeak.co.kr/66/?bmode=view&idx=173269003",
+   "column_title": "한국기계연구원 채용, 무엇을 보고 뽑는가"
   }
  ],
  "pending": [
