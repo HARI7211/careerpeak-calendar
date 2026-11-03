@@ -2,6 +2,8 @@
 
 대표님 지시(2026-11-03): 「25개중에 정보가 찾아지지 않거나 정보가 안보이는 경우나 보조 확인이 필요할 경우 클로드를 통해서 다시 점검해서 정보를 보충한다음에 캘린더로 넘겨줘야할 것 같아.」
 
+점검 주기: 매주 월·수·금 08:30(대표님 확정 2026-11-03, 회사 맥북 예약 작업 「【월·수·금】정출연 캘린더 공고 점검」). 대표님이 「캘린더 점검해」라고 하면 그때도 한다.
+
 캘린더는 `data/jcy_calendar.json`의 `items`만 띄운다. 자동 수집(`scripts/fetch.py`, 매일 07:00)은 새 공고를 `pending`에만 넣는다. 클로드가 아래 순서로 확인해 `items`로 옮긴다.
 
 ## 1. pending (자동 수집, 확인 전)
@@ -15,7 +17,7 @@
    - `evidence`: 확인한 곳(예: 「공고문 PDF 2쪽 응시자격」).
    - 칼럼: 위젯은 `column_url` → `data/jcy_columns.json`의 그 기관 칼럼(인턴·연수 공고면 「인턴」 글, 그다음 같은 직군 글, 직군 표시 없는 글, 아무 글) → 직군 공통 칼럼 순으로 고른다. 위젯이 고를 글이 공고와 맞지 않으면 더 맞는 글의 `column_url`(careerpeak.co.kr 글 주소)과 `column_title`을 넣는다. 새 칼럼이 발행되면 `build_column_map.py`(로컬 `홈페이지_캘린더/` 폴더)를 다시 돌려 `data/jcy_columns.json`을 올린다.
 3. `checked_by: "claude"`, `checked_at`(한국 시각)을 넣고 `reasons`·`found_at`을 지운 뒤 `items`로 옮긴다.
-4. 연구·기술·행정 이외 직종(조리원, 경비, 환경미화 등)만 뽑는 공고는 캘린더에 넣지 않는다(대표님 지시 2026-11-03). `pending`에서 빼서 `excluded`로 옮긴다(`id`, `org`, `org_short`, `title`, `end`, `url`, `reason`, `excluded_by: "claude"`, `excluded_at`). 자동 수집은 `excluded`에 있는 공고를 다시 `pending`에 넣지 않고, 마감일이 지나면 목록에서 지운다.
+4. 연구·기술·행정 이외 직종(조리원, 경비, 환경미화 등)만 뽑는 공고는 캘린더에 넣지 않는다(대표님 확정 2026-11-03). `pending`에서 빼서 `excluded`로 옮긴다(`id`, `org`, `org_short`, `title`, `end`, `url`, `reason`, `excluded_by: "claude"`, `excluded_at`). 자동 수집은 `excluded`에 있는 공고를 다시 `pending`에 넣지 않고, 마감일이 지나면 목록에서 지운다.
 5. 원문으로도 확인되지 않으면 `pending`에 남기고 `check_note`에 이유를 적는다(예: 「첨부 HWP 열 수 없음」). 대표님 보고 목록에 올린다. `check_note`는 다음 자동 수집 뒤에도 남는다.
 
 ## 2. review_queue (누리집 게시판 새 글)
