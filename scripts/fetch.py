@@ -5,6 +5,7 @@
 - NST 공동채용: https://onest.fairy.im/api/company/announcements (기관 목록에 없는 것만 보탬)
 - fairy 목록이 비거나 상시 인재풀만 있는 곳(KRRI·KFRI·KIMS·KFE·NIGT·KIER)은 누리집 게시판에서 새 글만 찾아 review_queue에 넣는다.
 결과: data/jcy_calendar.json, 상태: data/seen_boards.json
+클로드 점검에서 뺀 공고(excluded)는 다시 pending에 넣지 않고, pending의 check_note는 다음 수집 때도 남긴다.
 """
 import json, os, re, sys, time, urllib.request, html
 from datetime import datetime, timezone, timedelta
@@ -125,6 +126,7 @@ def main():
     prev0 = json.load(open(cp0, encoding="utf-8")) if os.path.exists(cp0) else {}
     published = {i["id"]: i for i in prev0.get("items", []) if i.get("checked_by")}
     prev_pending = {i["id"]: i for i in prev0.get("pending", [])}
+    excluded = {i["id"]: i for i in prev0.get("excluded", [])}  # 클로드가 점검에서 뺀 공고(대표님 지시로 넣지 않는 직종 등)
     pub, pend = [], []
     for it in items:
         if it["id"] in published:
@@ -134,6 +136,8 @@ def main():
                     keep.setdefault("changed", []).append(k)
                 keep[k] = it[k]
             pub.append(keep)
+        elif it["id"] in excluded:
+            continue
         else:
             reasons = ["지원 학위 확인 필요"]
             if not it["start"] or not it["end"]:
@@ -144,9 +148,12 @@ def main():
                 reasons.append("직군 제목에 없음")
             it["reasons"] = reasons
             it["found_at"] = prev_pending.get(it["id"], {}).get("found_at", today)
+            if prev_pending.get(it["id"], {}).get("check_note"):
+                it["check_note"] = prev_pending[it["id"]]["check_note"]
             pend.append(it)
     items = sorted(pub, key=lambda i: (i["end"] or "9999", i["org_short"]))
     pend.sort(key=lambda i: (i["end"] or "9999", i["org_short"]))
+    excl = sorted((x for x in excluded.values() if not x.get("end") or x["end"] >= today), key=lambda i: (i.get("end") or "9999", i.get("org_short", "")))
     # 누리집 게시판 새 글 → review_queue
     sp = os.path.join(ROOT, "data/seen_boards.json")
     seen = json.load(open(sp, encoding="utf-8")) if os.path.exists(sp) else {}
@@ -174,10 +181,10 @@ def main():
     prev = json.load(open(cp, encoding="utf-8")) if os.path.exists(cp) else {}
     old_q = [q for q in prev.get("review_queue", []) if q.get("found_at", "") >= (now - timedelta(days=30)).strftime("%Y-%m-%d")]
     out = {"version": 2, "updated_at": now.isoformat(timespec="seconds"), "month": now.strftime("%Y-%m"),
-           "note": "캘린더는 items만 띄운다. items = 클로드가 공고 원문으로 학위·직군을 확인해 공개한 것(checked_by 있음). pending = 자동 수집했지만 확인 전. review_queue = 누리집 게시판 새 글(확인 전). errors = 열리지 않은 출처(클로드가 다른 길로 확인).",
-           "items": items, "pending": pend, "review_queue": old_q + queue, "errors": errors}
+           "note": "캘린더는 items만 띄운다. items = 클로드가 공고 원문으로 학위·직군을 확인해 공개한 것(checked_by 있음). pending = 자동 수집했지만 확인 전. review_queue = 누리집 게시판 새 글(확인 전). errors = 열리지 않은 출처(클로드가 다른 길로 확인). excluded = 클로드가 점검에서 뺀 공고(다시 수집하지 않음).",
+           "items": items, "pending": pend, "review_queue": old_q + queue, "errors": errors, "excluded": excl}
     json.dump(out, open(cp, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print(f"items {len(items)}, pending {len(pend)} (정규직 {sum(i['category']=='정규직' for i in pend)}), review_queue +{len(queue)}, errors {len(errors)}")
+    print(f"items {len(items)}, pending {len(pend)} (정규직 {sum(i['category']=='정규직' for i in pend)}), review_queue +{len(queue)}, errors {len(errors)}, excluded {len(excl)}")
     for e in errors:
         print("  error:", e)
 
