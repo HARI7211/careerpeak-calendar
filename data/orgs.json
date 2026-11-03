@@ -1,0 +1,205 @@
+{
+ "note": "정출연 25곳(NST 소관 23 + 우주항공청 2). site_checked=false는 누리집 주소를 2026-11-03 기준 직접 확인하지 않은 것. 공동채용 게시판: https://www.nst.re.kr/www/selectBbsNttList.do?bbsNo=19&key=61",
+ "orgs": [
+  {
+   "name": "한국과학기술연구원",
+   "short": "KIST",
+   "ministry": "NST",
+   "region": "서울",
+   "site": "https://www.kist.re.kr",
+   "site_checked": false
+  },
+  {
+   "name": "한국기초과학지원연구원",
+   "short": "KBSI",
+   "ministry": "NST",
+   "region": "대전",
+   "site": "https://www.kbsi.re.kr",
+   "site_checked": false
+  },
+  {
+   "name": "한국천문연구원",
+   "short": "KASI",
+   "ministry": "우주항공청",
+   "region": "대전",
+   "site": "https://www.kasi.re.kr",
+   "site_checked": true
+  },
+  {
+   "name": "한국생명공학연구원",
+   "short": "KRIBB",
+   "ministry": "NST",
+   "region": "대전",
+   "site": "https://www.kribb.re.kr",
+   "site_checked": true
+  },
+  {
+   "name": "한국과학기술정보연구원",
+   "short": "KISTI",
+   "ministry": "NST",
+   "region": "대전",
+   "site": "https://www.kisti.re.kr",
+   "site_checked": false
+  },
+  {
+   "name": "한국한의학연구원",
+   "short": "KIOM",
+   "ministry": "NST",
+   "region": "대전",
+   "site": "https://www.kiom.re.kr",
+   "site_checked": true
+  },
+  {
+   "name": "한국생산기술연구원",
+   "short": "KITECH",
+   "ministry": "NST",
+   "region": "충남 천안",
+   "site": "https://www.kitech.re.kr",
+   "site_checked": true
+  },
+  {
+   "name": "한국전자통신연구원",
+   "short": "ETRI",
+   "ministry": "NST",
+   "region": "대전",
+   "site": "https://www.etri.re.kr",
+   "site_checked": true
+  },
+  {
+   "name": "국가보안기술연구소",
+   "short": "NSR",
+   "ministry": "NST(ETRI 부설)",
+   "region": "대전",
+   "site": "https://www.nsr.re.kr",
+   "site_checked": false
+  },
+  {
+   "name": "한국건설기술연구원",
+   "short": "KICT",
+   "ministry": "NST",
+   "region": "경기 고양",
+   "site": "https://www.kict.re.kr",
+   "site_checked": true
+  },
+  {
+   "name": "한국철도기술연구원",
+   "short": "KRRI",
+   "ministry": "NST",
+   "region": "경기 의왕",
+   "site": "https://www.krri.re.kr",
+   "site_checked": true
+  },
+  {
+   "name": "한국표준과학연구원",
+   "short": "KRISS",
+   "ministry": "NST",
+   "region": "대전",
+   "site": "https://www.kriss.re.kr",
+   "site_checked": true
+  },
+  {
+   "name": "한국식품연구원",
+   "short": "KFRI",
+   "ministry": "NST",
+   "region": "전북 완주",
+   "site": "https://www.kfri.re.kr",
+   "site_checked": true
+  },
+  {
+   "name": "세계김치연구소",
+   "short": "WIKIM",
+   "ministry": "NST",
+   "region": "광주",
+   "site": "https://www.wikim.re.kr",
+   "site_checked": true
+  },
+  {
+   "name": "한국지질자원연구원",
+   "short": "KIGAM",
+   "ministry": "NST",
+   "region": "대전",
+   "site": "https://www.kigam.re.kr",
+   "site_checked": false
+  },
+  {
+   "name": "한국기계연구원",
+   "short": "KIMM",
+   "ministry": "NST",
+   "region": "대전",
+   "site": "https://www.kimm.re.kr",
+   "site_checked": true
+  },
+  {
+   "name": "한국재료연구원",
+   "short": "KIMS",
+   "ministry": "NST",
+   "region": "경남 창원",
+   "site": "https://www.kims.re.kr",
+   "site_checked": true
+  },
+  {
+   "name": "한국항공우주연구원",
+   "short": "KARI",
+   "ministry": "우주항공청",
+   "region": "대전",
+   "site": "https://www.kari.re.kr",
+   "site_checked": true
+  },
+  {
+   "name": "한국에너지기술연구원",
+   "short": "KIER",
+   "ministry": "NST",
+   "region": "대전",
+   "site": "https://www.kier.re.kr",
+   "site_checked": true
+  },
+  {
+   "name": "한국전기연구원",
+   "short": "KERI",
+   "ministry": "NST",
+   "region": "경남 창원",
+   "site": "https://www.keri.re.kr",
+   "site_checked": true
+  },
+  {
+   "name": "한국화학연구원",
+   "short": "KRICT",
+   "ministry": "NST",
+   "region": "대전",
+   "site": "https://www.krict.re.kr",
+   "site_checked": true
+  },
+  {
+   "name": "국가독성과학연구소",
+   "short": "KIT",
+   "ministry": "NST",
+   "region": "대전",
+   "site": "https://www.kitox.re.kr",
+   "site_checked": false
+  },
+  {
+   "name": "한국원자력연구원",
+   "short": "KAERI",
+   "ministry": "NST",
+   "region": "대전",
+   "site": "https://www.kaeri.re.kr",
+   "site_checked": true
+  },
+  {
+   "name": "한국핵융합에너지연구원",
+   "short": "KFE",
+   "ministry": "NST",
+   "region": "대전",
+   "site": "https://www.kfe.re.kr",
+   "site_checked": true
+  },
+  {
+   "name": "국가녹색기술연구소",
+   "short": "NIGT",
+   "ministry": "NST",
+   "region": "서울",
+   "site": "https://www.nigt.re.kr",
+   "site_checked": false
+  }
+ ]
+}
