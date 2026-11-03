@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-03T14:05:04+09:00",
+ "updated_at": "2026-11-03T14:12:33+09:00",
  "month": "2026-11",
  "note": "items는 기관 채용 시스템의 공고 제목·접수 기간을 그대로 옮긴 것. category·job_types는 제목에서 추정. degrees는 공고 원문 확인 전이라 비움. review_queue는 사람 확인 전이라 캘린더에 띄우지 않는다.",
  "items": [
@@ -387,5 +387,7 @@
   }
  ],
  "review_queue": [],
- "errors": []
+ "errors": [
+  "KRRI 게시판: <urlopen error _ssl.c:993: The handshake operation timed out>"
+ ]
 }
