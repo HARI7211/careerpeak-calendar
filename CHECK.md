@@ -13,6 +13,7 @@
    - `job_types`: 연구·기술·행정 가운데 모집하는 직군.
    - `category`가 틀렸으면 고친다(정규직, 인턴·연수, 박사후·연수연구원, 비정규·기타).
    - `evidence`: 확인한 곳(예: 「공고문 PDF 2쪽 응시자격」).
+   - 칼럼: 위젯은 `column_url` → `data/jcy_columns.json`의 그 기관 칼럼(인턴·연수 공고면 「인턴」 글, 그다음 같은 직군 글, 직군 표시 없는 글, 아무 글) → 직군 공통 칼럼 순으로 고른다. 위젯이 고를 글이 공고와 맞지 않으면 더 맞는 글의 `column_url`(careerpeak.co.kr 글 주소)과 `column_title`을 넣는다. 새 칼럼이 발행되면 `build_column_map.py`(로컬 `홈페이지_캘린더/` 폴더)를 다시 돌려 `data/jcy_columns.json`을 올린다.
 3. `checked_by: "claude"`, `checked_at`(한국 시각)을 넣고 `reasons`·`found_at`을 지운 뒤 `items`로 옮긴다.
 4. 연구·기술·행정 이외 직종(조리원, 경비, 환경미화 등)만 뽑는 공고는 캘린더에 넣지 않는다(대표님 지시 2026-11-03). `pending`에서 빼서 `excluded`로 옮긴다(`id`, `org`, `org_short`, `title`, `end`, `url`, `reason`, `excluded_by: "claude"`, `excluded_at`). 자동 수집은 `excluded`에 있는 공고를 다시 `pending`에 넣지 않고, 마감일이 지나면 목록에서 지운다.
 5. 원문으로도 확인되지 않으면 `pending`에 남기고 `check_note`에 이유를 적는다(예: 「첨부 HWP 열 수 없음」). 대표님 보고 목록에 올린다. `check_note`는 다음 자동 수집 뒤에도 남는다.
