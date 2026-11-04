@@ -7,6 +7,7 @@
 캘린더는 `data/jcy_calendar.json`의 `items`만 띄운다. 자동 수집(`scripts/fetch.py`, 매일 06:23, 예비 07:47)은 새 공고를 `pending`에만 넣는다. 클로드가 아래 순서로 확인해 `items`로 옮긴다.
 
 ## 0. 자동 수집이 오늘 돌았는지 먼저 본다
+- GitHub 예약 실행이 걸리지 않는 일이 있어(2026-11-04 두 번 확인), 회사 맥북이 매일 06:45에 오늘 수집 여부를 보고 안 됐으면 `gh workflow run`으로 수동 실행한다(launchd `kr.careerpeak.calendar-fetch`, 기록 `~/Library/Logs/careerpeak-calendar-fetch.log`). 맥이 잠자기였으면 깨어날 때 돈다.
 - `gh run list --workflow update.yml --event schedule -L 3`에 오늘(한국 날짜) 성공한 실행이 있는지, `data/jcy_calendar.json`의 `updated_at`이 오늘인지 본다.
 - 없으면 `gh workflow run update.yml`로 수동 실행하고 `gh run watch`로 끝까지 기다린 뒤 `git pull --rebase`하고 점검을 시작한다. 보고에 「예약 실행 빠짐, 수동 실행함」을 적는다.
 
