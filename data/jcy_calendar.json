@@ -1,35 +1,9 @@
 {
  "version": 2,
- "updated_at": "2026-11-03T14:47:06+09:00",
+ "updated_at": "2026-11-04T09:57:10+09:00",
  "month": "2026-11",
- "note": "캘린더는 items만 띄운다. items = 클로드가 공고 원문으로 학위·직군을 확인해 공개한 것(checked_by 있음). pending = 자동 수집했지만 확인 전. review_queue = 누리집 게시판 새 글(확인 전). errors = 열리지 않은 출처(클로드가 다른 길로 확인).",
+ "note": "캘린더는 items만 띄운다. items = 클로드가 공고 원문으로 학위·직군을 확인해 공개한 것(checked_by 있음). pending = 자동 수집했지만 확인 전. review_queue = 누리집 게시판 새 글(확인 전). errors = 열리지 않은 출처(클로드가 다른 길로 확인). excluded = 클로드가 점검에서 뺀 공고(다시 수집하지 않음).",
  "items": [
-  {
-   "id": "KIOM-15",
-   "org": "한국한의학연구원",
-   "org_short": "KIOM",
-   "title": "한국한의학연구원 2026년 7차 육아휴직 대체인력(계약직) 공개채용 공고",
-   "category": "비정규·기타",
-   "job_types": [
-    "연구",
-    "기술",
-    "행정"
-   ],
-   "degrees": [
-    "학사",
-    "석사",
-    "박사"
-   ],
-   "start": "2026-10-19",
-   "end": "2026-11-03",
-   "status": "접수 중",
-   "url": "https://kiom.fairy.im/announcement/detail/15",
-   "source": "fairy",
-   "degree_note": "연구직(MRI 임상연구 지원) 학사 이상, 연구직(비임상효능평가) 박사 이상, 기술연구직(임상연구 문서개발)·연구직(한의 임상시험) 석사 이상, 행정직(비서) 학력 무관",
-   "evidence": "공고문 PDF(붙임1) 1쪽 채용분야 표 학력 열",
-   "checked_by": "claude",
-   "checked_at": "2026-11-03T15:28:36+09:00"
-  },
   {
    "id": "KIT-17",
    "org": "국가독성과학연구소",
