@@ -4,7 +4,11 @@
 
 점검 주기: 매주 월·수·금 08:30(대표님 확정 2026-11-03, 회사 맥북 예약 작업 「【월·수·금】정출연 캘린더 공고 점검」). 대표님이 「캘린더 점검해」라고 하면 그때도 한다.
 
-캘린더는 `data/jcy_calendar.json`의 `items`만 띄운다. 자동 수집(`scripts/fetch.py`, 매일 07:00)은 새 공고를 `pending`에만 넣는다. 클로드가 아래 순서로 확인해 `items`로 옮긴다.
+캘린더는 `data/jcy_calendar.json`의 `items`만 띄운다. 자동 수집(`scripts/fetch.py`, 매일 06:23, 예비 07:47)은 새 공고를 `pending`에만 넣는다. 클로드가 아래 순서로 확인해 `items`로 옮긴다.
+
+## 0. 자동 수집이 오늘 돌았는지 먼저 본다
+- `gh run list --workflow update.yml --event schedule -L 3`에 오늘(한국 날짜) 성공한 실행이 있는지, `data/jcy_calendar.json`의 `updated_at`이 오늘인지 본다.
+- 없으면 `gh workflow run update.yml`로 수동 실행하고 `gh run watch`로 끝까지 기다린 뒤 `git pull --rebase`하고 점검을 시작한다. 보고에 「예약 실행 빠짐, 수동 실행함」을 적는다.
 
 ## 1. pending (자동 수집, 확인 전)
 1. 공고 원문을 연다. fairy 공고는 `https://{약칭}.fairy.im/api/company/announcement/{번호}`(본문과 첨부파일 주소), KARI는 `https://kari.applyin.co.kr/jobs/{번호}`.
@@ -27,7 +31,7 @@
 - 그 기관 공고를 다른 길(NST 공동채용 게시판, 기관 누리집, 에고브라우저)로 확인한다. 빠진 공고가 있으면 2번처럼 넣는다.
 
 ## 4. 저장
-- 바뀐 `data/jcy_calendar.json`을 저장소에 올린다. 자동 수집과 겹치지 않게 07:00~07:10은 피한다.
+- 바뀐 `data/jcy_calendar.json`을 저장소에 올린다. 자동 수집과 겹치지 않게 06:20~06:35, 07:45~08:00은 피한다(겹쳐서 push가 거절되면 `git pull --rebase` 뒤 다시 push).
 - 올리는 방법(2026-11-03부터): 회사 맥북의 작업 사본 `~/careerpeak-calendar`에서 `git pull --rebase` → 파일 고침 → `git commit` → `git push`. 인증은 gh 로그인(HARI7211, 맥 키체인)을 git이 쓴다. 웹 업로드 화면은 쓰지 않는다. 올린 뒤 `?ref={커밋}`으로 받아 로컬 파일과 대조한다.
 - 다음 자동 수집은 `items`에서 `checked_by`가 있는 항목의 확인 내용(학위·직군 등)은 그대로 두고 날짜·상태만 원문 기준으로 고친다. 원문 제목·날짜가 바뀌면 `changed`에 표시되므로 다음 점검 때 다시 본다.
 
