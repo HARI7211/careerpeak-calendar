@@ -1,125 +1,9 @@
 {
  "version": 2,
- "updated_at": "2026-11-05T11:50:25+09:00",
+ "updated_at": "2026-11-06T06:57:09+09:00",
  "month": "2026-11",
  "note": "캘린더는 items만 띄운다. items = 클로드가 공고 원문으로 학위·직군을 확인해 공개한 것(checked_by 있음). pending = 자동 수집했지만 확인 전. review_queue = 누리집 게시판 새 글(확인 전). errors = 열리지 않은 출처(클로드가 다른 길로 확인). excluded = 클로드가 점검에서 뺀 공고(다시 수집하지 않음).",
  "items": [
-  {
-   "id": "KAERI-27",
-   "org": "한국원자력연구원",
-   "org_short": "KAERI",
-   "title": "2026년 정규직(사내변호사) 공개채용",
-   "category": "정규직",
-   "job_types": [
-    "기술"
-   ],
-   "degrees": [],
-   "start": "2026-10-21",
-   "end": "2026-11-05",
-   "status": "접수 중",
-   "url": "https://kaeri.fairy.im/announcement/detail/27",
-   "source": "fairy",
-   "degree_note": "학력·전공 제한 없음, 변호사 자격 필수",
-   "evidence": "공고문 이미지 1 모집분야 표(직종 기술직, 학력 제한없음), 직무기술서 PDF(붙임1) 필요자격",
-   "checked_by": "claude",
-   "checked_at": "2026-11-03T15:28:36+09:00",
-   "column_url": "https://www.careerpeak.co.kr/66/?bmode=view&idx=172233042",
-   "column_title": "한국원자력연구원 행정직 채용, 6단계 전형과 자소서 4문항"
-  },
-  {
-   "id": "KARI-23508",
-   "org": "한국항공우주연구원",
-   "org_short": "KARI",
-   "title": "한국항공우주연구원 2026년도 4분기 KPS개발사업본부 특수사업직 채용 공고",
-   "category": "비정규·기타",
-   "job_types": [
-    "연구"
-   ],
-   "degrees": [
-    "석사",
-    "박사"
-   ],
-   "start": "2026-10-21",
-   "end": "2026-11-05",
-   "status": "접수 중",
-   "url": "https://kari.applyin.co.kr/jobs/23508",
-   "source": "applyin",
-   "degree_note": "연구직 D1·D2 석사 이상(졸업예정자 포함)",
-   "evidence": "공고문 PDF 1쪽 채용분야 표, 2쪽 응시 자격요건(연구직)",
-   "checked_by": "claude",
-   "checked_at": "2026-11-03T15:28:36+09:00"
-  },
-  {
-   "id": "KARI-23500",
-   "org": "한국항공우주연구원",
-   "org_short": "KARI",
-   "title": "한국항공우주연구원 2026년도 4분기 별정직 채용공고",
-   "category": "비정규·기타",
-   "job_types": [
-    "연구",
-    "행정"
-   ],
-   "degrees": [
-    "학사",
-    "석사",
-    "박사"
-   ],
-   "start": "2026-10-21",
-   "end": "2026-11-05",
-   "status": "접수 중",
-   "url": "https://kari.applyin.co.kr/jobs/23500",
-   "source": "applyin",
-   "degree_note": "연구직 A1 석사 이상, 행정직 B1~B3·행정기능직 C1~C3 학력 무관",
-   "evidence": "공고문 PDF 1쪽 채용분야 표, 2쪽 응시 자격요건",
-   "checked_by": "claude",
-   "checked_at": "2026-11-03T15:28:36+09:00"
-  },
-  {
-   "id": "KASI-31",
-   "org": "한국천문연구원",
-   "org_short": "KASI",
-   "title": "2026년 제2차 연구직(정규직)",
-   "category": "정규직",
-   "job_types": [
-    "연구"
-   ],
-   "degrees": [
-    "박사"
-   ],
-   "start": "2026-10-21",
-   "end": "2026-11-05",
-   "status": "접수 중",
-   "url": "https://kasi.fairy.im/announcement/detail/31",
-   "source": "fairy",
-   "degree_note": "A1~A3 모두 박사학위 소지자(임용예정일 기준)",
-   "evidence": "공고문 이미지 1쪽 채용분야·지원자격 표, 직무설명서 HWPX 교육요건",
-   "checked_by": "claude",
-   "checked_at": "2026-11-03T15:28:36+09:00"
-  },
-  {
-   "id": "KITECH-127",
-   "org": "한국생산기술연구원",
-   "org_short": "KITECH",
-   "title": "2026년 제35차 직원 (별정직) 공개채용",
-   "category": "비정규·기타",
-   "job_types": [
-    "연구"
-   ],
-   "degrees": [
-    "학사",
-    "석사",
-    "박사"
-   ],
-   "start": "2026-10-22",
-   "end": "2026-11-05",
-   "status": "접수 중",
-   "url": "https://kitech.fairy.im/announcement/detail/127",
-   "source": "fairy",
-   "degree_note": "연구 1개 분야(부산) 학사 이상",
-   "evidence": "공고문 이미지 1 모집분야 표 학위 열, 직무기술서 PDF 1쪽 학력",
-   "checked_by": "claude",
-   "checked_at": "2026-11-03T15:28:36+09:00"
-  },
   {
    "id": "KITECH-129",
    "org": "한국생산기술연구원",
@@ -567,7 +451,7 @@
  "pending": [],
  "review_queue": [],
  "errors": [
-  "KFE 게시판: The read operation timed out"
+  "KRRI 게시판: <urlopen error _ssl.c:994: The handshake operation timed out>"
  ],
  "excluded": [
   {
