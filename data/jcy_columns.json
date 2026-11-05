@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03T17:02:09+09:00",
+ "updated_at": "2026-11-05T16:28:20+09:00",
  "view": "https://www.careerpeak.co.kr/66/?bmode=view&idx={}",
  "generic": {
   "연구": "172179159",
@@ -339,6 +339,18 @@
   ],
   "KAERI": [
    {
+    "idx": "175435557",
+    "title": "한국원자력연구원 연봉, 다른 출연연보다 정말 높을까?",
+    "jobs": [],
+    "intern": false
+   },
+   {
+    "idx": "175423785",
+    "title": "한국원자력연구원 필기, 전공 시험 대신 NCS 75문항",
+    "jobs": [],
+    "intern": false
+   },
+   {
     "idx": "173577807",
     "title": "한국원자력연구원 채용, 연구직은 어떻게 뽑는가",
     "jobs": [
@@ -376,5 +388,5 @@
    }
   ]
  },
- "column_count": 119
+ "column_count": 121
 }
