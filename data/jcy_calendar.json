@@ -92,6 +92,144 @@
    "checked_at": "2026-11-03T15:28:36+09:00"
   },
   {
+   "id": "KICT-27",
+   "org": "한국건설기술연구원",
+   "org_short": "KICT",
+   "title": "2026년 3차 장애인 제한경쟁(기간제근로자) 채용 공고",
+   "category": "비정규·기타",
+   "job_types": [
+    "행정"
+   ],
+   "degrees": [],
+   "start": "2026-11-06",
+   "end": "2026-11-16",
+   "status": "접수 중",
+   "url": "https://kict.fairy.im/announcement/detail/27",
+   "source": "fairy",
+   "degree_note": "학력 무관(장애인 제한경쟁, 보조원 연구 및 행정 지원 1명)",
+   "evidence": "공고문 PDF(첨부1) 2쪽 채용개요 전공/학력 열, 직무기술서 PDF(첨부2) 교육요건",
+   "checked_by": "claude",
+   "checked_at": "2026-11-09T10:51:32+09:00"
+  },
+  {
+   "id": "KICT-28",
+   "org": "한국건설기술연구원",
+   "org_short": "KICT",
+   "title": "2027년 1차 기간제근로자 채용 공고",
+   "category": "비정규·기타",
+   "job_types": [
+    "연구",
+    "행정"
+   ],
+   "degrees": [
+    "학사",
+    "석사",
+    "박사"
+   ],
+   "start": "2026-11-06",
+   "end": "2026-11-16",
+   "status": "접수 중",
+   "url": "https://kict.fairy.im/announcement/detail/28",
+   "source": "fairy",
+   "degree_note": "신진연구원 2개 분야(B1·C1)는 석사 이상(3개월 이내 취득 예정 포함), 단일사업계약직 화재 소방(A1, 석사 우대)과 보조원 연구행정 업무보조(D1)는 학위 무관",
+   "evidence": "공고문 PDF(첨부1) 2쪽 채용개요 학위/전공 열, 직무기술서 PDF(첨부2) 교육요건",
+   "checked_by": "claude",
+   "checked_at": "2026-11-09T10:51:32+09:00"
+  },
+  {
+   "id": "KICT-29",
+   "org": "한국건설기술연구원",
+   "org_short": "KICT",
+   "title": "2027년(1회) 연수직(박사후연구원) 채용 공고",
+   "category": "박사후·연수연구원",
+   "job_types": [
+    "연구"
+   ],
+   "degrees": [
+    "박사"
+   ],
+   "start": "2026-11-06",
+   "end": "2026-11-16",
+   "status": "접수 중",
+   "url": "https://kict.fairy.im/announcement/detail/29",
+   "source": "fairy",
+   "degree_note": "박사학위 취득자 또는 3개월 이내 취득 예정자(2027-03-31까지 증명서 제출), 취득 후 7년 이내",
+   "evidence": "공고문 PDF(첨부1) 2~3쪽 응시자격",
+   "column_url": "https://www.careerpeak.co.kr/66/?bmode=view&idx=172743137",
+   "column_title": "포닥 vs 취업, 이공계 박사가 따질 기간·고용형태·지원 시한",
+   "checked_by": "claude",
+   "checked_at": "2026-11-09T10:51:32+09:00"
+  },
+  {
+   "id": "KICT-30",
+   "org": "한국건설기술연구원",
+   "org_short": "KICT",
+   "title": "2027년(1회) 연수직(학생연구원,인턴) 채용 공고",
+   "category": "인턴·연수",
+   "job_types": [
+    "연구"
+   ],
+   "degrees": [
+    "학사",
+    "석사",
+    "박사"
+   ],
+   "start": "2026-11-06",
+   "end": "2026-11-16",
+   "status": "접수 중",
+   "url": "https://kict.fairy.im/announcement/detail/30",
+   "source": "fairy",
+   "degree_note": "학생연구원(7명)은 국내 대학원 석·박사과정 재학생·수료등록생 대상(재학생 대상), 인턴(일반, 2명)은 학위 무관",
+   "evidence": "공고문 PDF(첨부1) 2쪽 채용분야 표 학위 열, 3쪽 응시자격",
+   "checked_by": "claude",
+   "checked_at": "2026-11-09T10:51:32+09:00"
+  },
+  {
+   "id": "KICT-31",
+   "org": "한국건설기술연구원",
+   "org_short": "KICT",
+   "title": "2027년(1회) 연수직(석사후연구원) 채용 공고",
+   "category": "박사후·연수연구원",
+   "job_types": [
+    "연구"
+   ],
+   "degrees": [
+    "석사"
+   ],
+   "start": "2026-11-06",
+   "end": "2026-11-16",
+   "status": "접수 중",
+   "url": "https://kict.fairy.im/announcement/detail/31",
+   "source": "fairy",
+   "degree_note": "석사학위 취득자 또는 3개월 이내 취득 예정자(2027-03-31까지 증명서 제출), 취득 후 5년 이내, 박사과정 재학·휴학·수료생 불가",
+   "evidence": "공고문 PDF(첨부1) 2쪽 응시자격",
+   "column_url": "https://www.careerpeak.co.kr/66/?bmode=view&idx=172255341",
+   "column_title": "석사 취업 vs 박사, 무엇이 유리할까? 취업률·소득 통계",
+   "checked_by": "claude",
+   "checked_at": "2026-11-09T10:51:32+09:00"
+  },
+  {
+   "id": "KIST-43",
+   "org": "한국과학기술연구원",
+   "org_short": "KIST",
+   "title": "KIST 2026-6차 휴직 대체인력 공개채용",
+   "category": "비정규·기타",
+   "job_types": [
+    "행정",
+    "기술"
+   ],
+   "degrees": [],
+   "start": "2026-11-02",
+   "end": "2026-11-16",
+   "status": "접수 중",
+   "url": "https://kist.fairy.im/announcement/detail/43",
+   "source": "fairy",
+   "degree_note": "공고문 지원자격에 학력 요건 없음, 연구행정원·관리원(행정)과 전문원(전기설비·도핑 분석)",
+   "evidence": "공고문 PDF 1~2쪽 지원자격·모집분야 표",
+   "checked_by": "claude",
+   "checked_at": "2026-11-03T15:28:36+09:00"
+  },
+  {
    "id": "KIST-44",
    "org": "한국과학기술연구원",
    "org_short": "KIST",
@@ -115,27 +253,6 @@
    "checked_at": "2026-11-03T15:28:36+09:00",
    "column_url": "https://www.careerpeak.co.kr/66/?bmode=view&idx=173385689",
    "column_title": "KIST 채용, 행정직은 무엇을 보고 뽑는가"
-  },
-  {
-   "id": "KIST-43",
-   "org": "한국과학기술연구원",
-   "org_short": "KIST",
-   "title": "KIST 2026-6차 휴직 대체인력 공개채용",
-   "category": "비정규·기타",
-   "job_types": [
-    "행정",
-    "기술"
-   ],
-   "degrees": [],
-   "start": "2026-11-02",
-   "end": "2026-11-16",
-   "status": "접수 중",
-   "url": "https://kist.fairy.im/announcement/detail/43",
-   "source": "fairy",
-   "degree_note": "공고문 지원자격에 학력 요건 없음, 연구행정원·관리원(행정)과 전문원(전기설비·도핑 분석)",
-   "evidence": "공고문 PDF 1~2쪽 지원자격·모집분야 표",
-   "checked_by": "claude",
-   "checked_at": "2026-11-03T15:28:36+09:00"
   },
   {
    "id": "KBSI-13",
@@ -263,25 +380,26 @@
    "checked_at": "2026-11-05T16:29:16+09:00"
   },
   {
-   "id": "ETRI-30",
+   "id": "ETRI-27",
    "org": "한국전자통신연구원",
    "org_short": "ETRI",
-   "title": "2027년도 1차 위촉연구원 공개채용",
-   "category": "비정규·기타",
+   "title": "2027년도 1차 박사후연수연구원 공개채용",
+   "category": "박사후·연수연구원",
    "job_types": [
     "연구"
    ],
    "degrees": [
-    "석사",
     "박사"
    ],
    "start": "2026-11-04",
    "end": "2026-11-20",
    "status": "접수 중",
-   "url": "https://etri.fairy.im/announcement/detail/30",
+   "url": "https://etri.fairy.im/announcement/detail/27",
    "source": "fairy",
-   "degree_note": "석·박사과정 재학(휴학 포함)·수료등록생 대상(학위 소지자가 아니라 재학생)",
+   "degree_note": "박사학위 취득 후 7년 이내 또는 임용예정일(2027-02-01) 3개월 이내 취득 예정자, 수료자 불가",
    "evidence": "공고문 HWP 1. 나. 지원자격",
+   "column_url": "https://www.careerpeak.co.kr/66/?bmode=view&idx=172743137",
+   "column_title": "포닥 vs 취업, 이공계 박사가 따질 기간·고용형태·지원 시한",
    "checked_by": "claude",
    "checked_at": "2026-11-05T16:29:16+09:00"
   },
@@ -310,125 +428,27 @@
    "column_title": "석사 취업 vs 박사, 무엇이 유리할까? 취업률·소득 통계"
   },
   {
-   "id": "ETRI-27",
+   "id": "ETRI-30",
    "org": "한국전자통신연구원",
    "org_short": "ETRI",
-   "title": "2027년도 1차 박사후연수연구원 공개채용",
-   "category": "박사후·연수연구원",
+   "title": "2027년도 1차 위촉연구원 공개채용",
+   "category": "비정규·기타",
    "job_types": [
     "연구"
    ],
    "degrees": [
+    "석사",
     "박사"
    ],
    "start": "2026-11-04",
    "end": "2026-11-20",
    "status": "접수 중",
-   "url": "https://etri.fairy.im/announcement/detail/27",
+   "url": "https://etri.fairy.im/announcement/detail/30",
    "source": "fairy",
-   "degree_note": "박사학위 취득 후 7년 이내 또는 임용예정일(2027-02-01) 3개월 이내 취득 예정자, 수료자 불가",
+   "degree_note": "석·박사과정 재학(휴학 포함)·수료등록생 대상(학위 소지자가 아니라 재학생)",
    "evidence": "공고문 HWP 1. 나. 지원자격",
-   "column_url": "https://www.careerpeak.co.kr/66/?bmode=view&idx=172743137",
-   "column_title": "포닥 vs 취업, 이공계 박사가 따질 기간·고용형태·지원 시한",
    "checked_by": "claude",
    "checked_at": "2026-11-05T16:29:16+09:00"
-  }
- ],
- "pending": [
-  {
-   "id": "KICT-31",
-   "org": "한국건설기술연구원",
-   "org_short": "KICT",
-   "title": "2027년(1회) 연수직(석사후연구원) 채용 공고",
-   "category": "박사후·연수연구원",
-   "job_types": [],
-   "degrees": null,
-   "start": "2026-11-06",
-   "end": "2026-11-16",
-   "status": "접수 중",
-   "url": "https://kict.fairy.im/announcement/detail/31",
-   "source": "fairy",
-   "reasons": [
-    "지원 학위 확인 필요",
-    "직군 제목에 없음"
-   ],
-   "found_at": "2026-11-07"
-  },
-  {
-   "id": "KICT-30",
-   "org": "한국건설기술연구원",
-   "org_short": "KICT",
-   "title": "2027년(1회) 연수직(학생연구원,인턴) 채용 공고",
-   "category": "인턴·연수",
-   "job_types": [],
-   "degrees": null,
-   "start": "2026-11-06",
-   "end": "2026-11-16",
-   "status": "접수 중",
-   "url": "https://kict.fairy.im/announcement/detail/30",
-   "source": "fairy",
-   "reasons": [
-    "지원 학위 확인 필요",
-    "직군 제목에 없음"
-   ],
-   "found_at": "2026-11-07"
-  },
-  {
-   "id": "KICT-29",
-   "org": "한국건설기술연구원",
-   "org_short": "KICT",
-   "title": "2027년(1회) 연수직(박사후연구원) 채용 공고",
-   "category": "박사후·연수연구원",
-   "job_types": [],
-   "degrees": null,
-   "start": "2026-11-06",
-   "end": "2026-11-16",
-   "status": "접수 중",
-   "url": "https://kict.fairy.im/announcement/detail/29",
-   "source": "fairy",
-   "reasons": [
-    "지원 학위 확인 필요",
-    "직군 제목에 없음"
-   ],
-   "found_at": "2026-11-07"
-  },
-  {
-   "id": "KICT-28",
-   "org": "한국건설기술연구원",
-   "org_short": "KICT",
-   "title": "2027년 1차 기간제근로자 채용 공고",
-   "category": "비정규·기타",
-   "job_types": [],
-   "degrees": null,
-   "start": "2026-11-06",
-   "end": "2026-11-16",
-   "status": "접수 중",
-   "url": "https://kict.fairy.im/announcement/detail/28",
-   "source": "fairy",
-   "reasons": [
-    "지원 학위 확인 필요",
-    "직군 제목에 없음"
-   ],
-   "found_at": "2026-11-07"
-  },
-  {
-   "id": "KICT-27",
-   "org": "한국건설기술연구원",
-   "org_short": "KICT",
-   "title": "2026년 3차 장애인 제한경쟁(기간제근로자) 채용 공고",
-   "category": "비정규·기타",
-   "job_types": [],
-   "degrees": null,
-   "start": "2026-11-06",
-   "end": "2026-11-16",
-   "status": "접수 중",
-   "url": "https://kict.fairy.im/announcement/detail/27",
-   "source": "fairy",
-   "reasons": [
-    "지원 학위 확인 필요",
-    "직군 제목에 없음"
-   ],
-   "found_at": "2026-11-07"
   },
   {
    "id": "KRIBB-28",
@@ -436,20 +456,22 @@
    "org_short": "KRIBB",
    "title": "2026-6차 계약직(장애인 제한경쟁) 채용 공고",
    "category": "비정규·기타",
-   "job_types": [],
-   "degrees": null,
+   "job_types": [
+    "행정"
+   ],
+   "degrees": [],
    "start": "2026-11-06",
    "end": "2026-11-20",
    "status": "접수 중",
    "url": "https://kribb.fairy.im/announcement/detail/28",
    "source": "fairy",
-   "reasons": [
-    "지원 학위 확인 필요",
-    "직군 제목에 없음"
-   ],
-   "found_at": "2026-11-06"
+   "degree_note": "학력 무관(장애인 제한경쟁, 계약직 사무원 6개 분야 13명)",
+   "evidence": "직무명세서 PDF(붙임) 1~6쪽 전공 및 학위",
+   "checked_by": "claude",
+   "checked_at": "2026-11-09T10:51:32+09:00"
   }
  ],
+ "pending": [],
  "review_queue": [],
  "errors": [
   "KRRI 게시판: <urlopen error _ssl.c:994: The handshake operation timed out>"
