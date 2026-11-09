@@ -31,6 +31,12 @@
 ## 3. errors (열리지 않은 출처)
 - 그 기관 공고를 다른 길(NST 공동채용 게시판, 기관 누리집, 에고브라우저)로 확인한다. 빠진 공고가 있으면 2번처럼 넣는다.
 
+## 3-1. 과기 기관 28곳 (`data/sci_calendar.json`, 2026-11-10부터)
+- 대표님 지시(2026-11-09): 정출연 밖 과학기술 공공기관 28곳(`data/orgs_sci.json`)도 캘린더로 만든다. 위젯은 정출연만 / 과기 28곳만 / 둘 다 세 가지로 바꿔 본다.
+- 자동 수집은 `scripts/fetch_sci.py`(ALIO 진행중 목록, applyin KTR·ADD, 누리집 게시판 14곳 새 글). 형식과 규칙은 jcy_calendar.json과 같다(items·pending·review_queue·errors·excluded, 공고마다 `group`).
+- 점검도 1~3번과 같다. ALIO 공고는 상세(`job.alio.go.kr/recruitview.do?idx=`)와 첨부로 원문을 본다. 연구·기술·행정 밖 직무(의사·간호사·미화·시설관리, 인재풀 상시 등록 등)는 excluded로 옮긴다.
+- 브라우저로만 열리는 곳(KOPRI·KBRI·NNFC·KATECH·KETEP·KICET 상세)은 수집되지 않는다. 화·목 과기공공 작업 기록(`회사맥북/기록/YYYY-MM-DD_과기공공채용접수현황.md`)에서 접수 중 공고를 찾아 원문을 확인하고 items에 직접 넣는다(`id`: `{약칭}-board-{접수 시작일}`, `source: "board"`). 이렇게 넣은 공고는 자동 수집이 마감일까지 남긴다.
+
 ## 4. 저장
 - 바뀐 `data/jcy_calendar.json`을 저장소에 올린다. 자동 수집과 겹치지 않게 06:20~06:35, 07:45~08:00은 피한다(겹쳐서 push가 거절되면 `git pull --rebase` 뒤 다시 push).
 - 올리는 방법(2026-11-03부터): 회사 맥북의 작업 사본 `~/careerpeak-calendar`에서 `git pull --rebase` → 파일 고침 → `git commit` → `git push`. 인증은 gh 로그인(HARI7211, 맥 키체인)을 git이 쓴다. 웹 업로드 화면은 쓰지 않는다. 올린 뒤 `?ref={커밋}`으로 받아 로컬 파일과 대조한다.

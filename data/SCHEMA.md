@@ -20,4 +20,5 @@
 - `excluded`: 클로드가 점검에서 뺀 공고(`reason`, `excluded_by`, `excluded_at`). 자동 수집이 다시 `pending`에 넣지 않고, 마감일이 지나면 지웁니다.
 - `review_queue`: 누리집 게시판에서 새로 찾은 글(30일 보관). 클로드가 확인한 뒤 캘린더에 반영합니다.
 - `jcy_columns.json`: 기관별 관련 칼럼 연결표(칼럼 게시판 /66 제목에 기관 이름·약칭이 있는 글, 최신순). `build_column_map.py`로 만든다.
+- `sci_calendar.json`: 정출연 밖 과학기술 공공기관 28곳(`orgs_sci.json`) 자료. 형식은 같고, 공고마다 `group`(사업발주·싱크탱크 / 국책연구소 / 원자력 안전 / 전문연구소·시험기관·국방)이 있다. `source`는 alio, applyin, board.
 - 확인 절차는 `CHECK.md`.

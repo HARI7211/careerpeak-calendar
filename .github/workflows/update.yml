@@ -16,6 +16,9 @@ jobs:
         with:
           python-version: "3.12"
       - run: python scripts/fetch.py
+      - name: fetch_sci (정출연 밖 과기 기관 28곳)
+        continue-on-error: true
+        run: python scripts/fetch_sci.py
       - name: commit
         run: |
           git config user.name "careerpeak-calendar-bot"

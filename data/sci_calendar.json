@@ -1,0 +1,423 @@
+{
+ "version": 1,
+ "updated_at": "2026-11-09T14:42:52+09:00",
+ "month": "2026-11",
+ "note": "정출연 밖 과학기술 공공기관 28곳(data/orgs_sci.json). 캘린더는 items만 띄운다. items = 클로드가 원문으로 확인해 공개한 것. pending = 자동 수집했지만 확인 전. review_queue = 누리집 게시판 새 글. errors = 열리지 않은 출처. excluded = 클로드가 점검에서 뺀 공고. 브라우저로만 열리는 곳은 클로드 점검이 보탠다.",
+ "items": [],
+ "pending": [
+  {
+   "id": "IBS-alio306145",
+   "org": "기초과학연구원",
+   "org_short": "IBS",
+   "group": "국책연구소",
+   "title": "2026-2 Recruitment Announcement for a Postdoctoral Research Associate Position at the CTPU-CGA",
+   "category": "박사후·연수연구원",
+   "job_types": [],
+   "degrees": null,
+   "start": "2026-10-23",
+   "end": "2026-11-09",
+   "status": "접수 중",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306145",
+   "source": "alio",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "직군 제목에 없음"
+   ],
+   "found_at": "2026-11-09"
+  },
+  {
+   "id": "KISDI-alio306319",
+   "org": "정보통신정책연구원",
+   "org_short": "KISDI",
+   "group": "사업발주·싱크탱크",
+   "title": "2026년 청년인턴 공개채용",
+   "category": "인턴·연수",
+   "job_types": [],
+   "degrees": null,
+   "start": "2026-10-26",
+   "end": "2026-11-10",
+   "status": "접수 중",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306319",
+   "source": "alio",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "직군 제목에 없음"
+   ],
+   "found_at": "2026-11-09"
+  },
+  {
+   "id": "IITP-alio306374",
+   "org": "정보통신기획평가원",
+   "org_short": "IITP",
+   "group": "사업발주·싱크탱크",
+   "title": "2026년 정보통신기획평가원 직원채용(공무직(미화관리, 시설관리)) 공고",
+   "category": "기타",
+   "job_types": [],
+   "degrees": null,
+   "start": "2026-10-28",
+   "end": "2026-11-11",
+   "status": "접수 중",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306374",
+   "source": "alio",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "종류 분류 안 됨",
+    "직군 제목에 없음"
+   ],
+   "found_at": "2026-11-09"
+  },
+  {
+   "id": "IBS-alio306356",
+   "org": "기초과학연구원",
+   "org_short": "IBS",
+   "group": "국책연구소",
+   "title": "제2026-2회 기초과학연구원 중이온가속기연구소 정규직원 채용공고",
+   "category": "정규직",
+   "job_types": [],
+   "degrees": null,
+   "start": "2026-10-29",
+   "end": "2026-11-13",
+   "status": "접수 중",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306356",
+   "source": "alio",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "직군 제목에 없음"
+   ],
+   "found_at": "2026-11-09"
+  },
+  {
+   "id": "KISDI-alio306488",
+   "org": "정보통신정책연구원",
+   "org_short": "KISDI",
+   "group": "사업발주·싱크탱크",
+   "title": "정보통신정책연구원 무기계약직 직원(위촉행정원) 채용 공고",
+   "category": "비정규·기타",
+   "job_types": [
+    "행정"
+   ],
+   "degrees": null,
+   "start": "2026-10-29",
+   "end": "2026-11-13",
+   "status": "접수 중",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306488",
+   "source": "alio",
+   "reasons": [
+    "지원 학위 확인 필요"
+   ],
+   "found_at": "2026-11-09"
+  },
+  {
+   "id": "KISTEP-alio306456",
+   "org": "한국과학기술기획평가원",
+   "org_short": "KISTEP",
+   "group": "사업발주·싱크탱크",
+   "title": "한국과학기술기획평가원(KISTEP) 글로벌기술전략본부 전략기술정책센터 육아휴직 대체인력 채용 재공고(2차)",
+   "category": "비정규·기타",
+   "job_types": [],
+   "degrees": null,
+   "start": "2026-10-29",
+   "end": "2026-11-13",
+   "status": "접수 중",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306456",
+   "source": "alio",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "직군 제목에 없음"
+   ],
+   "found_at": "2026-11-09"
+  },
+  {
+   "id": "KIRAMS-alio306527",
+   "org": "한국원자력의학원",
+   "org_short": "KIRAMS",
+   "group": "국책연구소",
+   "title": "2027년도 전임의사 초빙 공고",
+   "category": "기타",
+   "job_types": [],
+   "degrees": null,
+   "start": "2026-10-30",
+   "end": "2026-11-16",
+   "status": "접수 중",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306527",
+   "source": "alio",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "종류 분류 안 됨",
+    "직군 제목에 없음"
+   ],
+   "found_at": "2026-11-09"
+  },
+  {
+   "id": "NRF-alio306338",
+   "org": "한국연구재단",
+   "org_short": "NRF",
+   "group": "사업발주·싱크탱크",
+   "title": "한국연구재단 PM(ICT·융합연구단장) 초빙 공고",
+   "category": "기타",
+   "job_types": [],
+   "degrees": null,
+   "start": "2026-10-26",
+   "end": "2026-11-16",
+   "status": "접수 중",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306338",
+   "source": "alio",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "종류 분류 안 됨",
+    "직군 제목에 없음"
+   ],
+   "found_at": "2026-11-09"
+  },
+  {
+   "id": "KISDI-alio306567",
+   "org": "정보통신정책연구원",
+   "org_short": "KISDI",
+   "group": "사업발주·싱크탱크",
+   "title": "2026년도 계약직 행정원 채용공고(휴직대체)",
+   "category": "비정규·기타",
+   "job_types": [
+    "행정"
+   ],
+   "degrees": null,
+   "start": "2026-11-02",
+   "end": "2026-11-17",
+   "status": "접수 중",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306567",
+   "source": "alio",
+   "reasons": [
+    "지원 학위 확인 필요"
+   ],
+   "found_at": "2026-11-09"
+  },
+  {
+   "id": "KIOST-alio306633",
+   "org": "한국해양과학기술원",
+   "org_short": "KIOST",
+   "group": "국책연구소",
+   "title": "[제26-03-07호]한국해양과학기술원 2026년 기간제계약직(전문계약직기술원) 채용",
+   "category": "비정규·기타",
+   "job_types": [],
+   "degrees": null,
+   "start": "2026-11-03",
+   "end": "2026-11-18",
+   "status": "접수 중",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306633",
+   "source": "alio",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "직군 제목에 없음"
+   ],
+   "found_at": "2026-11-09"
+  },
+  {
+   "id": "KIRAMS-alio306662",
+   "org": "한국원자력의학원",
+   "org_short": "KIRAMS",
+   "group": "국책연구소",
+   "title": "2027년 한국원자력의학원 신규간호사 공개채용 공고",
+   "category": "정규직",
+   "job_types": [],
+   "degrees": null,
+   "start": "2026-11-03",
+   "end": "2026-11-18",
+   "status": "접수 중",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306662",
+   "source": "alio",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "직군 제목에 없음"
+   ],
+   "found_at": "2026-11-09"
+  },
+  {
+   "id": "KIRAMS-alio306658",
+   "org": "한국원자력의학원",
+   "org_short": "KIRAMS",
+   "group": "국책연구소",
+   "title": "제2026-6기 한국원자력의학원 별정직(일반 및 장애인) 정기공개채용",
+   "category": "비정규·기타",
+   "job_types": [],
+   "degrees": null,
+   "start": "2026-11-03",
+   "end": "2026-11-18",
+   "status": "접수 중",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306658",
+   "source": "alio",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "직군 제목에 없음"
+   ],
+   "found_at": "2026-11-09"
+  },
+  {
+   "id": "IBS-alio306337",
+   "org": "기초과학연구원",
+   "org_short": "IBS",
+   "group": "국책연구소",
+   "title": "제2026-5회 광과학연구클러스터 별정직(체험형 청년인턴) 채용 공고",
+   "category": "인턴·연수",
+   "job_types": [],
+   "degrees": null,
+   "start": "2026-11-04",
+   "end": "2026-11-19",
+   "status": "접수 중",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306337",
+   "source": "alio",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "직군 제목에 없음"
+   ],
+   "found_at": "2026-11-09"
+  },
+  {
+   "id": "KIRAMS-alio306755",
+   "org": "한국원자력의학원",
+   "org_short": "KIRAMS",
+   "group": "국책연구소",
+   "title": "제2026-5회 한국원자력의학원 정기직원채용",
+   "category": "기타",
+   "job_types": [],
+   "degrees": null,
+   "start": "2026-11-05",
+   "end": "2026-11-20",
+   "status": "접수 중",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306755",
+   "source": "alio",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "종류 분류 안 됨",
+    "직군 제목에 없음"
+   ],
+   "found_at": "2026-11-09"
+  },
+  {
+   "id": "KIRAMS-alio306752",
+   "org": "한국원자력의학원",
+   "org_short": "KIRAMS",
+   "group": "국책연구소",
+   "title": "정규직(의무직) 직원채용 공고(외과)",
+   "category": "정규직",
+   "job_types": [],
+   "degrees": null,
+   "start": "2026-11-05",
+   "end": "2026-11-20",
+   "status": "접수 중",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306752",
+   "source": "alio",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "직군 제목에 없음"
+   ],
+   "found_at": "2026-11-09"
+  },
+  {
+   "id": "IBS-alio306779",
+   "org": "기초과학연구원",
+   "org_short": "IBS",
+   "group": "국책연구소",
+   "title": "2026-7회 광과학연구클러스터(마이크로바이옴-체-뇌 생리학 연구단) 연구직 채용 계획(안)",
+   "category": "기타",
+   "job_types": [
+    "연구"
+   ],
+   "degrees": null,
+   "start": "2026-11-09",
+   "end": "2026-11-24",
+   "status": "접수 중",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306779",
+   "source": "alio",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "종류 분류 안 됨"
+   ],
+   "found_at": "2026-11-09"
+  },
+  {
+   "id": "IBS-alio304823",
+   "org": "기초과학연구원",
+   "org_short": "IBS",
+   "group": "국책연구소",
+   "title": "제2026-1회 이산수학 그룹 연구직 채용 공고",
+   "category": "기타",
+   "job_types": [
+    "연구"
+   ],
+   "degrees": null,
+   "start": "2026-09-15",
+   "end": "2026-11-30",
+   "status": "접수 중",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304823",
+   "source": "alio",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "종류 분류 안 됨"
+   ],
+   "found_at": "2026-11-09"
+  },
+  {
+   "id": "KISDI-alio306563",
+   "org": "정보통신정책연구원",
+   "org_short": "KISDI",
+   "group": "사업발주·싱크탱크",
+   "title": "정보통신정책연구원 정규직 직원(연구책임자) 채용 공고",
+   "category": "정규직",
+   "job_types": [],
+   "degrees": null,
+   "start": "2026-11-01",
+   "end": "2026-11-30",
+   "status": "접수 중",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306563",
+   "source": "alio",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "직군 제목에 없음"
+   ],
+   "found_at": "2026-11-09"
+  },
+  {
+   "id": "IBS-alio306455",
+   "org": "기초과학연구원",
+   "org_short": "IBS",
+   "group": "국책연구소",
+   "title": "2026-3 Recruitment Announcement for a Senior Researcher Position at IBS the CTPU-CGA",
+   "category": "기타",
+   "job_types": [],
+   "degrees": null,
+   "start": "2026-11-02",
+   "end": "2026-12-09",
+   "status": "접수 중",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306455",
+   "source": "alio",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "종류 분류 안 됨",
+    "직군 제목에 없음"
+   ],
+   "found_at": "2026-11-09"
+  },
+  {
+   "id": "ADD-13465",
+   "org": "국방과학연구소",
+   "org_short": "ADD",
+   "group": "전문연구소·시험기관·국방",
+   "title": "국방과학연구소 인재풀 등록",
+   "category": "비정규·기타",
+   "job_types": [],
+   "degrees": null,
+   "start": "2024-05-07",
+   "end": "2030-12-31",
+   "status": "접수 중",
+   "url": "https://add.applyin.co.kr/jobs/13465",
+   "source": "applyin",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "직군 제목에 없음"
+   ],
+   "found_at": "2026-11-09"
+  }
+ ],
+ "review_queue": [],
+ "errors": [],
+ "excluded": []
+}

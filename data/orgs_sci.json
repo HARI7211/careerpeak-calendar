@@ -1,0 +1,33 @@
+{
+ "note": "정출연 밖 과학기술 공공기관 28곳(과기공공 화·목 작업 조회경로 정본 기준, 2026-11-10). group: 사업발주·싱크탱크 / 국책연구소 / 원자력 안전 / 전문연구소·시험기관·국방",
+ "orgs": [
+  {"short": "STEPI", "name": "과학기술정책연구원", "group": "사업발주·싱크탱크"},
+  {"short": "KISTEP", "name": "한국과학기술기획평가원", "group": "사업발주·싱크탱크"},
+  {"short": "KISDI", "name": "정보통신정책연구원", "group": "사업발주·싱크탱크"},
+  {"short": "IITP", "name": "정보통신기획평가원", "group": "사업발주·싱크탱크"},
+  {"short": "KEIT", "name": "한국산업기술기획평가원", "group": "사업발주·싱크탱크"},
+  {"short": "KIAT", "name": "한국산업기술진흥원", "group": "사업발주·싱크탱크"},
+  {"short": "KETEP", "name": "한국에너지기술평가원", "group": "사업발주·싱크탱크"},
+  {"short": "NRF", "name": "한국연구재단", "group": "사업발주·싱크탱크"},
+  {"short": "KIDA", "name": "한국국방연구원", "group": "사업발주·싱크탱크"},
+  {"short": "IBS", "name": "기초과학연구원", "group": "국책연구소"},
+  {"short": "KIOST", "name": "한국해양과학기술원", "group": "국책연구소"},
+  {"short": "KRISO", "name": "선박해양플랜트연구소", "group": "국책연구소"},
+  {"short": "KOPRI", "name": "극지연구소", "group": "국책연구소"},
+  {"short": "KBRI", "name": "한국뇌연구원", "group": "국책연구소"},
+  {"short": "KIRAMS", "name": "한국원자력의학원", "group": "국책연구소"},
+  {"short": "NNFC", "name": "나노종합기술원", "group": "국책연구소"},
+  {"short": "KANC", "name": "한국나노기술원", "group": "국책연구소"},
+  {"short": "KINS", "name": "한국원자력안전기술원", "group": "원자력 안전"},
+  {"short": "KINAC", "name": "한국원자력통제기술원", "group": "원자력 안전"},
+  {"short": "KETI", "name": "한국전자기술연구원", "group": "전문연구소·시험기관·국방"},
+  {"short": "KATECH", "name": "한국자동차연구원", "group": "전문연구소·시험기관·국방"},
+  {"short": "KOPTI", "name": "한국광기술원", "group": "전문연구소·시험기관·국방"},
+  {"short": "KICET", "name": "한국세라믹기술원", "group": "전문연구소·시험기관·국방"},
+  {"short": "KTL", "name": "한국산업기술시험원", "group": "전문연구소·시험기관·국방"},
+  {"short": "KCL", "name": "한국건설생활환경시험연구원", "group": "전문연구소·시험기관·국방"},
+  {"short": "KTR", "name": "한국화학융합시험연구원", "group": "전문연구소·시험기관·국방"},
+  {"short": "KTC", "name": "한국기계전기전자시험연구원", "group": "전문연구소·시험기관·국방"},
+  {"short": "ADD", "name": "국방과학연구소", "group": "전문연구소·시험기관·국방"}
+ ]
+}
