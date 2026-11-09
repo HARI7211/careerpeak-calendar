@@ -1,31 +1,9 @@
 {
  "version": 2,
- "updated_at": "2026-11-09T11:00:15+09:00",
+ "updated_at": "2026-11-09T14:45:15+09:00",
  "month": "2026-11",
  "note": "캘린더는 items만 띄운다. items = 클로드가 공고 원문으로 학위·직군을 확인해 공개한 것(checked_by 있음). pending = 자동 수집했지만 확인 전. review_queue = 누리집 게시판 새 글(확인 전). errors = 열리지 않은 출처(클로드가 다른 길로 확인). excluded = 클로드가 점검에서 뺀 공고(다시 수집하지 않음).",
  "items": [
-  {
-   "id": "ETRI-28",
-   "org": "한국전자통신연구원",
-   "org_short": "ETRI",
-   "title": "2027년 동계 연구연수생(청년인턴) 공개채용",
-   "category": "인턴·연수",
-   "job_types": [
-    "연구"
-   ],
-   "degrees": [
-    "학사"
-   ],
-   "start": "2026-10-30",
-   "end": "2026-11-09",
-   "status": "접수 중",
-   "url": "https://etri.fairy.im/announcement/detail/28",
-   "source": "fairy",
-   "degree_note": "대학 3학년 이상 재학·휴학생(27년 2월 졸업예정자·졸업유예자 포함), 졸업생·대학원 재학생 불가",
-   "evidence": "모집분야 PDF(붙임1) 1쪽 자격요건, FAQ PDF(붙임2) Q1·Q4",
-   "checked_by": "claude",
-   "checked_at": "2026-11-03T15:28:36+09:00"
-  },
   {
    "id": "KITECH-130",
    "org": "한국생산기술연구원",
