@@ -5,6 +5,324 @@
  "note": "캘린더는 items만 띄운다. items = 클로드가 공고 원문으로 학위·직군을 확인해 공개한 것(checked_by 있음). pending = 자동 수집했지만 확인 전. review_queue = 누리집 게시판 새 글(확인 전). errors = 열리지 않은 출처(클로드가 다른 길로 확인). excluded = 클로드가 점검에서 뺀 공고(다시 수집하지 않음).",
  "items": [
   {
+   "id": "KIOM-15",
+   "org": "한국한의학연구원",
+   "org_short": "KIOM",
+   "title": "한국한의학연구원 2026년 7차 육아휴직 대체인력(계약직) 공개채용 공고",
+   "category": "비정규·기타",
+   "job_types": [
+    "연구",
+    "기술",
+    "행정"
+   ],
+   "degrees": [
+    "학사",
+    "석사",
+    "박사"
+   ],
+   "start": "2026-10-19",
+   "end": "2026-11-03",
+   "status": "마감",
+   "url": "https://kiom.fairy.im/announcement/detail/15",
+   "source": "fairy",
+   "degree_note": "연구직(MRI 임상연구 지원) 학사 이상, 연구직(비임상효능평가) 박사 이상, 기술연구직(임상연구 문서개발)·연구직(한의 임상시험) 석사 이상, 행정직(비서) 학력 무관",
+   "evidence": "공고문 PDF(붙임1) 1쪽 채용분야 표 학력 열",
+   "checked_by": "claude",
+   "checked_at": "2026-11-03T15:28:36+09:00"
+  },
+  {
+   "id": "KIT-17",
+   "org": "국가독성과학연구소",
+   "org_short": "KIT",
+   "title": "제2026-2차 정규직 공개채용(행정직)",
+   "category": "정규직",
+   "job_types": [
+    "행정"
+   ],
+   "degrees": [],
+   "start": "2026-10-20",
+   "end": "2026-11-04",
+   "status": "마감",
+   "url": "https://kit.fairy.im/announcement/detail/17",
+   "source": "fairy",
+   "degree_note": "학위·전공 무관",
+   "evidence": "공고문 이미지 2쪽 모집분야 표·지원자격요건 표",
+   "checked_by": "claude",
+   "checked_at": "2026-11-03T15:28:36+09:00"
+  },
+  {
+   "id": "KAERI-27",
+   "org": "한국원자력연구원",
+   "org_short": "KAERI",
+   "title": "2026년 정규직(사내변호사) 공개채용",
+   "category": "정규직",
+   "job_types": [
+    "기술"
+   ],
+   "degrees": [],
+   "start": "2026-10-21",
+   "end": "2026-11-05",
+   "status": "마감",
+   "url": "https://kaeri.fairy.im/announcement/detail/27",
+   "source": "fairy",
+   "degree_note": "학력·전공 제한 없음, 변호사 자격 필수",
+   "evidence": "공고문 이미지 1 모집분야 표(직종 기술직, 학력 제한없음), 직무기술서 PDF(붙임1) 필요자격",
+   "checked_by": "claude",
+   "checked_at": "2026-11-03T15:28:36+09:00",
+   "column_url": "https://www.careerpeak.co.kr/66/?bmode=view&idx=172233042",
+   "column_title": "한국원자력연구원 행정직 채용, 6단계 전형과 자소서 4문항"
+  },
+  {
+   "id": "KARI-23508",
+   "org": "한국항공우주연구원",
+   "org_short": "KARI",
+   "title": "한국항공우주연구원 2026년도 4분기 KPS개발사업본부 특수사업직 채용 공고",
+   "category": "비정규·기타",
+   "job_types": [
+    "연구"
+   ],
+   "degrees": [
+    "석사",
+    "박사"
+   ],
+   "start": "2026-10-21",
+   "end": "2026-11-05",
+   "status": "마감",
+   "url": "https://kari.applyin.co.kr/jobs/23508",
+   "source": "applyin",
+   "degree_note": "연구직 D1·D2 석사 이상(졸업예정자 포함)",
+   "evidence": "공고문 PDF 1쪽 채용분야 표, 2쪽 응시 자격요건(연구직)",
+   "checked_by": "claude",
+   "checked_at": "2026-11-03T15:28:36+09:00"
+  },
+  {
+   "id": "KARI-23500",
+   "org": "한국항공우주연구원",
+   "org_short": "KARI",
+   "title": "한국항공우주연구원 2026년도 4분기 별정직 채용공고",
+   "category": "비정규·기타",
+   "job_types": [
+    "연구",
+    "행정"
+   ],
+   "degrees": [
+    "학사",
+    "석사",
+    "박사"
+   ],
+   "start": "2026-10-21",
+   "end": "2026-11-05",
+   "status": "마감",
+   "url": "https://kari.applyin.co.kr/jobs/23500",
+   "source": "applyin",
+   "degree_note": "연구직 A1 석사 이상, 행정직 B1~B3·행정기능직 C1~C3 학력 무관",
+   "evidence": "공고문 PDF 1쪽 채용분야 표, 2쪽 응시 자격요건",
+   "checked_by": "claude",
+   "checked_at": "2026-11-03T15:28:36+09:00"
+  },
+  {
+   "id": "KASI-31",
+   "org": "한국천문연구원",
+   "org_short": "KASI",
+   "title": "2026년 제2차 연구직(정규직)",
+   "category": "정규직",
+   "job_types": [
+    "연구"
+   ],
+   "degrees": [
+    "박사"
+   ],
+   "start": "2026-10-21",
+   "end": "2026-11-05",
+   "status": "마감",
+   "url": "https://kasi.fairy.im/announcement/detail/31",
+   "source": "fairy",
+   "degree_note": "A1~A3 모두 박사학위 소지자(임용예정일 기준)",
+   "evidence": "공고문 이미지 1쪽 채용분야·지원자격 표, 직무설명서 HWPX 교육요건",
+   "checked_by": "claude",
+   "checked_at": "2026-11-03T15:28:36+09:00"
+  },
+  {
+   "id": "KITECH-127",
+   "org": "한국생산기술연구원",
+   "org_short": "KITECH",
+   "title": "2026년 제35차 직원 (별정직) 공개채용",
+   "category": "비정규·기타",
+   "job_types": [
+    "연구"
+   ],
+   "degrees": [
+    "학사",
+    "석사",
+    "박사"
+   ],
+   "start": "2026-10-22",
+   "end": "2026-11-05",
+   "status": "마감",
+   "url": "https://kitech.fairy.im/announcement/detail/127",
+   "source": "fairy",
+   "degree_note": "연구 1개 분야(부산) 학사 이상",
+   "evidence": "공고문 이미지 1 모집분야 표 학위 열, 직무기술서 PDF 1쪽 학력",
+   "checked_by": "claude",
+   "checked_at": "2026-11-03T15:28:36+09:00"
+  },
+  {
+   "id": "KITECH-129",
+   "org": "한국생산기술연구원",
+   "org_short": "KITECH",
+   "title": "2026년 제36차 직원(체험형인턴) 공개채용",
+   "category": "인턴·연수",
+   "job_types": [
+    "연구"
+   ],
+   "degrees": [
+    "학사",
+    "석사",
+    "박사"
+   ],
+   "start": "2026-10-23",
+   "end": "2026-11-06",
+   "status": "마감",
+   "url": "https://kitech.fairy.im/announcement/detail/129",
+   "source": "fairy",
+   "degree_note": "92개 분야 모두 연구, 분야별 학력무관(고졸 포함)·학사 이상·석사 이상",
+   "evidence": "공고문 이미지 1~4 체험형인턴 모집분야 표 구분·학위 열",
+   "checked_by": "claude",
+   "checked_at": "2026-11-03T15:28:36+09:00"
+  },
+  {
+   "id": "KITECH-128",
+   "org": "한국생산기술연구원",
+   "org_short": "KITECH",
+   "title": "2026년 제36차 직원(박사후연구원) 공개채용",
+   "category": "박사후·연수연구원",
+   "job_types": [
+    "연구"
+   ],
+   "degrees": [
+    "박사"
+   ],
+   "start": "2026-10-23",
+   "end": "2026-11-06",
+   "status": "마감",
+   "url": "https://kitech.fairy.im/announcement/detail/128",
+   "source": "fairy",
+   "degree_note": "18개 분야 모두 박사 이상, 박사학위 취득 후 7년 이내 또는 3개월 이내 취득 예정자",
+   "evidence": "공고문 이미지 1~2 박사후연구원 응시자격·모집분야 표",
+   "checked_by": "claude",
+   "checked_at": "2026-11-03T15:28:36+09:00",
+   "column_url": "https://www.careerpeak.co.kr/66/?bmode=view&idx=172743137",
+   "column_title": "포닥 vs 취업, 이공계 박사가 따질 기간·고용형태·지원 시한"
+  },
+  {
+   "id": "KRICT-9",
+   "org": "한국화학연구원",
+   "org_short": "KRICT",
+   "title": "2026년 하반기 정직원(경영행정) 채용",
+   "category": "정규직",
+   "job_types": [
+    "행정"
+   ],
+   "degrees": [],
+   "start": "2026-10-21",
+   "end": "2026-11-06",
+   "status": "마감",
+   "url": "https://krict.fairy.im/announcement/detail/9",
+   "source": "fairy",
+   "degree_note": "전산 1명, 교육요건·필요자격 해당사항 없음(학사 이상은 우대사항)",
+   "evidence": "공고문 이미지 1 채용분야 표, 직무기술서 PDF 1쪽 교육요건·필요자격·우대사항",
+   "checked_by": "claude",
+   "checked_at": "2026-11-03T15:28:36+09:00"
+  },
+  {
+   "id": "KRICT-8",
+   "org": "한국화학연구원",
+   "org_short": "KRICT",
+   "title": "2026년 하반기 정규직원 채용",
+   "category": "정규직",
+   "job_types": [
+    "연구"
+   ],
+   "degrees": [
+    "학사",
+    "석사",
+    "박사"
+   ],
+   "start": "2026-10-21",
+   "end": "2026-11-06",
+   "status": "마감",
+   "url": "https://krict.fairy.im/announcement/detail/8",
+   "source": "fairy",
+   "degree_note": "전략기획 연구 1명(정규직·무기계약직), 학사학위 소지자 필요, 석사 이상 우대",
+   "evidence": "공고문 이미지 1 채용분야 표, 직무기술서 PDF 1쪽 필요자격·우대사항",
+   "checked_by": "claude",
+   "checked_at": "2026-11-03T15:28:36+09:00",
+   "column_url": "https://www.careerpeak.co.kr/66/?bmode=view&idx=172458181",
+   "column_title": "기술사업화·기술기획 직무란? R&D 밖에서 연구 경력을 살리는 길"
+  },
+  {
+   "id": "KRICT-7",
+   "org": "한국화학연구원",
+   "org_short": "KRICT",
+   "title": "2026년 하반기 정직원(연구분야) 채용",
+   "category": "정규직",
+   "job_types": [
+    "연구"
+   ],
+   "degrees": [],
+   "start": "2026-10-21",
+   "end": "2026-11-06",
+   "status": "마감",
+   "url": "https://krict.fairy.im/announcement/detail/7",
+   "source": "fairy",
+   "degree_note": "학위 요건 없음, 최근 5년 SCI(E) 제1저자 논문·국제특허 합계 2편 이상 필수, 박사학위 소지자 우대",
+   "evidence": "공고문 이미지 1 채용분야 표(7개 분야), 직무기술서 PDF 필요자격·우대사항",
+   "checked_by": "claude",
+   "checked_at": "2026-11-03T15:28:36+09:00"
+  },
+  {
+   "id": "ETRI-28",
+   "org": "한국전자통신연구원",
+   "org_short": "ETRI",
+   "title": "2027년 동계 연구연수생(청년인턴) 공개채용",
+   "category": "인턴·연수",
+   "job_types": [
+    "연구"
+   ],
+   "degrees": [
+    "학사"
+   ],
+   "start": "2026-10-30",
+   "end": "2026-11-09",
+   "status": "마감",
+   "url": "https://etri.fairy.im/announcement/detail/28",
+   "source": "fairy",
+   "degree_note": "대학 3학년 이상 재학·휴학생(27년 2월 졸업예정자·졸업유예자 포함), 졸업생·대학원 재학생 불가",
+   "evidence": "모집분야 PDF(붙임1) 1쪽 자격요건, FAQ PDF(붙임2) Q1·Q4",
+   "checked_by": "claude",
+   "checked_at": "2026-11-03T15:28:36+09:00"
+  },
+  {
+   "id": "KIMM-21",
+   "org": "한국기계연구원",
+   "org_short": "KIMM",
+   "title": "2026년도 제6회 육아휴직 대체인력 채용(행정직)",
+   "category": "비정규·기타",
+   "job_types": [
+    "행정"
+   ],
+   "degrees": [],
+   "start": "2026-10-26",
+   "end": "2026-11-09",
+   "status": "마감",
+   "url": "https://kimm.fairy.im/announcement/detail/21",
+   "source": "fairy",
+   "degree_note": "상근위촉행정원(별정직) 1명, 학력 무관",
+   "evidence": "공고문 이미지 모집분야 표 학력기준",
+   "checked_by": "claude",
+   "checked_at": "2026-11-03T15:28:36+09:00"
+  },
+  {
    "id": "KITECH-130",
    "org": "한국생산기술연구원",
    "org_short": "KITECH",

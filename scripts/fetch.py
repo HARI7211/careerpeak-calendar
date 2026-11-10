@@ -6,6 +6,7 @@
 - fairy 목록이 비거나 상시 인재풀만 있는 곳(KRRI·KFRI·KIMS·KFE·NIGT·KIER)은 누리집 게시판에서 새 글만 찾아 review_queue에 넣는다.
 결과: data/jcy_calendar.json, 상태: data/seen_boards.json
 클로드 점검에서 뺀 공고(excluded)는 다시 pending에 넣지 않고, pending의 check_note는 다음 수집 때도 남긴다.
+이번 달에 마감된 공개 공고(items)는 status "마감"으로 달이 바뀔 때까지 남긴다.
 """
 import json, os, re, sys, time, urllib.request, html
 from datetime import datetime, timezone, timedelta
@@ -151,6 +152,13 @@ def main():
             if prev_pending.get(it["id"], {}).get("check_note"):
                 it["check_note"] = prev_pending[it["id"]]["check_note"]
             pend.append(it)
+    # 이번 달에 마감된 공개 공고는 달이 바뀔 때까지 남긴다(위젯이 달력에 회색으로만 그림, 대표님 지시 2026-11-10)
+    pub_ids = {i["id"] for i in pub}
+    for i in published.values():
+        if i["id"] not in pub_ids and i.get("end") and i["end"] < today and i["end"][:7] == today[:7]:
+            keep = dict(i)
+            keep["status"] = "마감"
+            pub.append(keep)
     items = sorted(pub, key=lambda i: (i["end"] or "9999", i["org_short"]))
     pend.sort(key=lambda i: (i["end"] or "9999", i["org_short"]))
     excl = sorted((x for x in excluded.values() if not x.get("end") or x["end"] >= today), key=lambda i: (i.get("end") or "9999", i.get("org_short", "")))

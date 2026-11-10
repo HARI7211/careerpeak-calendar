@@ -138,10 +138,18 @@ def main():
             if prev_pending.get(it["id"], {}).get("check_note"):
                 it["check_note"] = prev_pending[it["id"]]["check_note"]
             pend.append(it)
-    # 클로드가 게시판 글로 직접 넣은 공개 항목(source board 등)은 마감 전까지 남긴다
-    seen_ids = {i["id"] for i in items}
+    # 클로드가 게시판 글로 직접 넣은 공개 항목(source board)은 마감 전까지 남긴다.
+    # 이번 달에 마감된 공개 공고는 출처와 상관없이 status "마감"으로 달이 바뀔 때까지 남긴다(대표님 지시 2026-11-10)
+    pub_ids = {i["id"] for i in pub}
     for i in published.values():
-        if i["id"] not in seen_ids and i.get("source") not in ("alio", "applyin") and (not i.get("end") or i["end"] >= today):
+        if i["id"] in pub_ids:
+            continue
+        if i.get("end") and i["end"] < today:
+            if i["end"][:7] == today[:7]:
+                keep = dict(i)
+                keep["status"] = "마감"
+                pub.append(keep)
+        elif i.get("source") not in ("alio", "applyin"):
             pub.append(i)
     pub.sort(key=lambda i: (i["end"] or "9999", i["org_short"]))
     pend.sort(key=lambda i: (i["end"] or "9999", i["org_short"]))
