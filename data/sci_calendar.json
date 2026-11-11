@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-11T10:19:00+09:00",
+ "updated_at": "2026-11-11T11:18:55+09:00",
  "month": "2026-11",
  "note": "정출연 밖 과학기술 공공기관 28곳(data/orgs_sci.json). 캘린더는 items만 띄운다. items = 클로드가 원문으로 확인해 공개한 것. pending = 자동 수집했지만 확인 전. review_queue = 누리집 게시판 새 글. errors = 열리지 않은 출처. excluded = 클로드가 점검에서 뺀 공고. 브라우저로만 열리는 곳은 클로드 점검이 보탠다.",
  "items": [
@@ -403,33 +403,6 @@
    "checked_at": "2026-11-09T15:03:29+09:00"
   },
   {
-   "id": "IBS-alio306779",
-   "org": "기초과학연구원",
-   "org_short": "IBS",
-   "group": "국책연구소",
-   "title": "2026-7회 광과학연구클러스터(마이크로바이옴-체-뇌 생리학 연구단) 연구직 채용 계획(안)",
-   "category": "기타",
-   "job_types": [
-    "연구"
-   ],
-   "degrees": [
-    "학사",
-    "석사",
-    "박사"
-   ],
-   "start": "2026-11-09",
-   "end": "2026-11-24",
-   "status": "접수 중",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=306779",
-   "source": "alio",
-   "degree_note": "박사후연구원(박사 취득 5년 이내·3개월 내 예정), 다른 분야는 생명과학·이공계 학사 이상",
-   "evidence": "공고문 HWP 지원자격 및 우대사항",
-   "checked_by": "claude",
-   "checked_at": "2026-11-09T15:03:29+09:00",
-   "column_url": "https://www.careerpeak.co.kr/66/?bmode=view&idx=172743137",
-   "column_title": "포닥 vs 취업, 이공계 박사가 따질 기간·고용형태·지원 시한"
-  },
-  {
    "id": "IBS-alio304823",
    "org": "기초과학연구원",
    "org_short": "IBS",
@@ -527,6 +500,28 @@
   }
  ],
  "pending": [
+  {
+   "id": "IBS-alio306911",
+   "org": "기초과학연구원",
+   "org_short": "IBS",
+   "group": "국책연구소",
+   "title": "(수정) 2026-7회 광과학연구클러스터(마이크로바이옴-체-뇌 생리학 연구단) 연구직 채용 공고",
+   "category": "기타",
+   "job_types": [
+    "연구"
+   ],
+   "degrees": null,
+   "start": "2026-11-09",
+   "end": "2026-11-24",
+   "status": "접수 중",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306911",
+   "source": "alio",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "종류 분류 안 됨"
+   ],
+   "found_at": "2026-11-11"
+  },
   {
    "id": "IBS-alio306776",
    "org": "기초과학연구원",
