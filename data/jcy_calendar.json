@@ -745,9 +745,7 @@
    "evidence": "직무명세서 PDF(붙임) 1~6쪽 전공 및 학위",
    "checked_by": "claude",
    "checked_at": "2026-11-09T10:51:32+09:00"
-  }
- ],
- "pending": [
+  },
   {
    "id": "KIOM-17",
    "org": "한국한의학연구원",
@@ -756,20 +754,26 @@
    "category": "정규직",
    "job_types": [
     "연구",
+    "기술",
     "행정"
    ],
-   "degrees": null,
+   "degrees": [
+    "학사",
+    "석사",
+    "박사"
+   ],
    "start": "2026-11-11",
    "end": "2026-11-26",
    "status": "접수 중",
    "url": "https://kiom.fairy.im/announcement/detail/17",
    "source": "fairy",
-   "reasons": [
-    "지원 학위 확인 필요"
-   ],
-   "found_at": "2026-11-11"
+   "degree_note": "연구직 A1·A2 석사 이상, A3·A4·A6~A8 박사, A5 한의사·의사 면허, A9 수의사 면허(석사 이상 우대), 기술연구직 B1 방사선사 면허(학력 제한 없음)·B2·B3 이공계 학사 이상, 행정직 학력 제한 없음, 2027년 2월 학위 취득 예정자 지원 가능",
+   "evidence": "공고문 PDF 1~3쪽 모집분야 표 자격요건 열",
+   "checked_by": "claude",
+   "checked_at": "2026-11-11T16:05:11+09:00"
   }
  ],
+ "pending": [],
  "review_queue": [],
  "errors": [
   "KRRI 게시판: <urlopen error _ssl.c:994: The handshake operation timed out>"
