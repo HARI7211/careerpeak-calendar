@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated_at": "2026-11-11T06:50:35+09:00",
+ "updated_at": "2026-11-11T10:16:53+09:00",
  "month": "2026-11",
  "note": "캘린더는 items만 띄운다. items = 클로드가 공고 원문으로 학위·직군을 확인해 공개한 것(checked_by 있음). pending = 자동 수집했지만 확인 전. review_queue = 누리집 게시판 새 글(확인 전). errors = 열리지 않은 출처(클로드가 다른 길로 확인). excluded = 클로드가 점검에서 뺀 공고(다시 수집하지 않음).",
  "items": [
@@ -747,7 +747,29 @@
    "checked_at": "2026-11-09T10:51:32+09:00"
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "id": "KIOM-17",
+   "org": "한국한의학연구원",
+   "org_short": "KIOM",
+   "title": "한국한의학연구원 2026년 2차 정규직 채용공고(연구직, 기술연구직, 행정직)",
+   "category": "정규직",
+   "job_types": [
+    "연구",
+    "행정"
+   ],
+   "degrees": null,
+   "start": "2026-11-11",
+   "end": "2026-11-26",
+   "status": "접수 중",
+   "url": "https://kiom.fairy.im/announcement/detail/17",
+   "source": "fairy",
+   "reasons": [
+    "지원 학위 확인 필요"
+   ],
+   "found_at": "2026-11-11"
+  }
+ ],
  "review_queue": [],
  "errors": [
   "KRRI 게시판: <urlopen error _ssl.c:994: The handshake operation timed out>"
