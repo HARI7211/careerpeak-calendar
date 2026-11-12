@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-12T12:26:56+09:00",
+ "updated_at": "2026-11-13T06:51:12+09:00",
  "month": "2026-11",
  "note": "정출연 밖 과학기술 공공기관 28곳(data/orgs_sci.json). 캘린더는 items만 띄운다. items = 클로드가 원문으로 확인해 공개한 것. pending = 자동 수집했지만 확인 전. review_queue = 누리집 게시판 새 글. errors = 열리지 않은 출처. excluded = 클로드가 점검에서 뺀 공고. 브라우저로만 열리는 곳은 클로드 점검이 보탠다.",
  "items": [
@@ -147,7 +147,7 @@
    ],
    "start": "2026-11-06",
    "end": "2026-11-12",
-   "status": "접수 중",
+   "status": "마감",
    "url": "https://www.kcl.re.kr/site/program/board/basicboard/view.do?menuid=001016006001&pagesize=10&boardtypeid=88&boardid=86150",
    "source": "board",
    "degree_note": "전기전자1센터 전문학사 이상, 에코자원순환센터 학사 이상(시험업무)",
@@ -654,11 +654,18 @@
    "board": "https://www.ktl.re.kr/notice/notice_2/menu1/notice_announcement.do",
    "reason": "누리집 게시판 새 글",
    "found_at": "2026-11-12"
+  },
+  {
+   "org_short": "KTL",
+   "org": "한국산업기술시험원",
+   "group": "전문연구소·시험기관·국방",
+   "title": "[공고 제2026-1-0764호] 고저항측정기 구매",
+   "board": "https://www.ktl.re.kr/notice/notice_2/menu1/notice_announcement.do",
+   "reason": "누리집 게시판 새 글",
+   "found_at": "2026-11-13"
   }
  ],
  "errors": [
-  "KTR applyin: <urlopen error timed out>",
-  "ADD applyin: <urlopen error timed out>",
   "KOPTI 게시판: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
  ],
  "excluded": [
