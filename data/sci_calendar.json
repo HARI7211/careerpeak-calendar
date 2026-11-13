@@ -601,9 +601,7 @@
    "evidence": "공고문 이미지 1. 채용분야 표, 제목 ~12/31",
    "checked_by": "claude",
    "checked_at": "2026-11-09T15:03:29+09:00"
-  }
- ],
- "pending": [
+  },
   {
    "id": "KIOST-alio306913",
    "org": "한국해양과학기술원",
@@ -611,18 +609,24 @@
    "group": "국책연구소",
    "title": "[제27-01-01호 및 제27-02-01호]한국해양과학기술원 2027년 1차 직원(정규직/무기계약직) 채용",
    "category": "정규직",
-   "job_types": [],
-   "degrees": null,
+   "job_types": [
+    "연구",
+    "기술"
+   ],
+   "degrees": [
+    "학사",
+    "석사",
+    "박사"
+   ],
    "start": "2026-11-11",
    "end": "2026-11-26",
    "status": "접수 중",
    "url": "https://job.alio.go.kr/recruitview.do?idx=306913",
    "source": "alio",
-   "reasons": [
-    "지원 학위 확인 필요",
-    "직군 제목에 없음"
-   ],
-   "found_at": "2026-11-12"
+   "degree_note": "정규직 연구직 A01~A04·기술직 A05~A06 박사(+주저자 논문 요건), 기술직(행) 항해사·기관사 학사·석사(최종학위 초과 불가, 면허·승선경력), 무기계약 기술직 B01 학사·석사, 기능직(사업관리·행정, 갑판부원) 고졸 이상, 그 밖에 공무직 미화·경비·조리 포함. 접수는 11-13부터",
+   "evidence": "ALIO 상세 표, 공고문 PDF 1~3쪽 채용분야 및 응시자격, 14쪽 접수기간",
+   "checked_by": "claude",
+   "checked_at": "2026-11-13T13:04:50+09:00"
   },
   {
    "id": "KIAT-alio306932",
@@ -631,58 +635,50 @@
    "group": "사업발주·싱크탱크",
    "title": "[한국산업기술진흥원] 2026년 하반기 육아휴직 대체인력 공개채용 공고",
    "category": "비정규·기타",
-   "job_types": [],
-   "degrees": null,
+   "job_types": [
+    "행정"
+   ],
+   "degrees": [],
    "start": "2026-11-11",
    "end": "2026-11-30",
    "status": "접수 중",
    "url": "https://job.alio.go.kr/recruitview.do?idx=306932",
    "source": "alio",
-   "reasons": [
-    "지원 학위 확인 필요",
-    "직군 제목에 없음"
-   ],
-   "found_at": "2026-11-12"
-  }
- ],
- "review_queue": [
-  {
-   "org_short": "KTL",
-   "org": "한국산업기술시험원",
-   "group": "전문연구소·시험기관·국방",
-   "title": "[공고 제2026-1-0786호] 천안분소 미화 근로자 도급",
-   "board": "https://www.ktl.re.kr/notice/notice_2/menu1/notice_announcement.do",
-   "reason": "누리집 게시판 새 글",
-   "found_at": "2026-11-12"
+   "degree_note": "육아휴직 대체(계약직) 사업관리 12명, 학력·전공·연령·성별·경력 제한 없음",
+   "evidence": "ALIO 상세 표(학력무관), 공고문 PDF 2쪽 응시자격, 직무기술서(사업관리: 국가R&D 사업기획·과제 평가·관리)",
+   "column_url": "https://www.careerpeak.co.kr/66/?bmode=view&idx=172458181",
+   "column_title": "기술사업화·기술기획 직무란? R&D 밖에서 연구 경력을 살리는 길",
+   "checked_by": "claude",
+   "checked_at": "2026-11-13T13:04:50+09:00"
   },
   {
-   "org_short": "KTL",
-   "org": "한국산업기술시험원",
-   "group": "전문연구소·시험기관·국방",
-   "title": "[공고 제2026-1-0764호] 고저항측정기 구매",
-   "board": "https://www.ktl.re.kr/notice/notice_2/menu1/notice_announcement.do",
-   "reason": "누리집 게시판 새 글",
-   "found_at": "2026-11-13"
-  },
-  {
-   "org_short": "KIDA",
-   "org": "한국국방연구원",
-   "group": "사업발주·싱크탱크",
-   "title": "2026년도 수시 2차 채용 최종합격자 발표",
-   "board": "https://www.kida.re.kr/frt/board/frtNormalBoard.do?sidx=1125&depth=2",
-   "reason": "누리집 게시판 새 글",
-   "found_at": "2026-11-13"
-  },
-  {
-   "org_short": "KCL",
+   "id": "KCL-board-2026-11-13-86356",
    "org": "한국건설생활환경시험연구원",
+   "org_short": "KCL",
    "group": "전문연구소·시험기관·국방",
    "title": "한국건설생활환경시험연구원 일반계약직 모집(강원,인천,충북) - 11월 19일 접수마감",
-   "board": "https://www.kcl.re.kr/site/program/board/basicboard/list.do?boardtypeid=88&menuid=001016006001",
-   "reason": "누리집 게시판 새 글",
-   "found_at": "2026-11-13"
+   "category": "비정규·기타",
+   "job_types": [
+    "기술"
+   ],
+   "degrees": [
+    "학사",
+    "석사",
+    "박사"
+   ],
+   "start": "2026-11-13",
+   "end": "2026-11-19",
+   "status": "접수 중",
+   "url": "https://www.kcl.re.kr/site/program/board/basicboard/view.do?menuid=001016006001&pagesize=10&boardtypeid=88&boardid=86356",
+   "source": "board",
+   "degree_note": "실화재센터(강원)·전기전자1센터(충북) 전문학사 이상, 의료안전성센터(인천) 학사 이상(화학·바이오, LC/MSMS 분석 가능자), 2027년 2월 졸업자까지 지원 가능",
+   "evidence": "공고문 jpg 모집부문 및 자격요건·원서접수(접수기간 2026-11-19 24:00), 게시판 등록일 11-13",
+   "checked_by": "claude",
+   "checked_at": "2026-11-13T13:04:50+09:00"
   }
  ],
+ "pending": [],
+ "review_queue": [],
  "errors": [
   "KOPTI 게시판: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
  ],

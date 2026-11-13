@@ -771,28 +771,6 @@
    "evidence": "공고문 PDF 1~3쪽 모집분야 표 자격요건 열",
    "checked_by": "claude",
    "checked_at": "2026-11-11T16:05:11+09:00"
-  }
- ],
- "pending": [
-  {
-   "id": "KARI-23672",
-   "org": "한국항공우주연구원",
-   "org_short": "KARI",
-   "title": "한국항공우주연구원 2027년도 동계 연구보조원 모집공고",
-   "category": "기타",
-   "job_types": [],
-   "degrees": null,
-   "start": "2026-11-12",
-   "end": "2026-11-23",
-   "status": "접수 중",
-   "url": "https://kari.applyin.co.kr/jobs/23672",
-   "source": "applyin",
-   "reasons": [
-    "지원 학위 확인 필요",
-    "종류 분류 안 됨",
-    "직군 제목에 없음"
-   ],
-   "found_at": "2026-11-13"
   },
   {
    "id": "KIOM-18",
@@ -803,18 +781,45 @@
    "job_types": [
     "행정"
    ],
-   "degrees": null,
+   "degrees": [
+    "학사",
+    "석사",
+    "박사"
+   ],
    "start": "2026-11-13",
    "end": "2026-11-28",
    "status": "접수 중",
    "url": "https://kiom.fairy.im/announcement/detail/18",
    "source": "fairy",
-   "reasons": [
-    "지원 학위 확인 필요"
+   "degree_note": "인턴행정원 4명, 고졸 이상(장애인 제한경쟁)",
+   "evidence": "공고문 PDF(붙임1) 1쪽 모집분야 표 학력 열, 공통 지원자격",
+   "checked_by": "claude",
+   "checked_at": "2026-11-13T13:04:50+09:00"
+  },
+  {
+   "id": "KARI-23672",
+   "org": "한국항공우주연구원",
+   "org_short": "KARI",
+   "title": "한국항공우주연구원 2027년도 동계 연구보조원 모집공고",
+   "category": "인턴·연수",
+   "job_types": [
+    "연구"
    ],
-   "found_at": "2026-11-13"
+   "degrees": [
+    "학사"
+   ],
+   "start": "2026-11-12",
+   "end": "2026-11-23",
+   "status": "접수 중",
+   "url": "https://kari.applyin.co.kr/jobs/23672",
+   "source": "applyin",
+   "degree_note": "대학 재학생·휴학생 대상(재학생 대상), 8개 코드 중 6개 이공계열 필수(기록물·홍보 지원 2개는 전공 무관), 근무 2027-01-04~01-29 또는 02-26",
+   "evidence": "공고문 PDF 1쪽 응시 자격 표·지원 자격",
+   "checked_by": "claude",
+   "checked_at": "2026-11-13T13:04:50+09:00"
   }
  ],
+ "pending": [],
  "review_queue": [],
  "errors": [
   "KRRI 게시판: <urlopen error _ssl.c:994: The handshake operation timed out>"
