@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-14T10:30:40+09:00",
+ "updated_at": "2026-11-14T11:44:14+09:00",
  "month": "2026-11",
  "note": "정출연 밖 과학기술 공공기관 28곳(data/orgs_sci.json). 캘린더는 items만 띄운다. items = 클로드가 원문으로 확인해 공개한 것. pending = 자동 수집했지만 확인 전. review_queue = 누리집 게시판 새 글. errors = 열리지 않은 출처. excluded = 클로드가 점검에서 뺀 공고. 브라우저로만 열리는 곳은 클로드 점검이 보탠다.",
  "items": [
