@@ -452,6 +452,32 @@
    "checked_at": "2026-11-13T13:04:50+09:00"
   },
   {
+   "id": "KCL-board-2026-11-13-86372",
+   "org": "한국건설생활환경시험연구원",
+   "org_short": "KCL",
+   "group": "전문연구소·시험기관·국방",
+   "title": "한국건설생활환경시험연구원 일반계약직 모집(전북,서울,경기) - 11월 19일 접수마감",
+   "category": "비정규·기타",
+   "job_types": [
+    "기술",
+    "행정"
+   ],
+   "degrees": [
+    "학사",
+    "석사",
+    "박사"
+   ],
+   "start": "2026-11-13",
+   "end": "2026-11-19",
+   "status": "접수 중",
+   "url": "https://www.kcl.re.kr/site/program/board/basicboard/view.do?menuid=001016006001&pagesize=10&boardtypeid=88&boardid=86372",
+   "source": "board",
+   "degree_note": "전북센터(자연과학·이공계)·제품유해성센터 서울(화학·환경·재료)·자동차환경평가센터 경기(이공계) 모두 학사 이상, 시험업무 지원과 행정업무 지원, 2027년 2월 졸업 예정자까지 지원 가능",
+   "evidence": "공고문 jpg 모집부문 및 자격요건·원서접수(접수기간 2026-11-19 24:00), 게시판 등록일 11-13",
+   "checked_by": "claude",
+   "checked_at": "2026-11-16T11:54:30+09:00"
+  },
+  {
    "id": "KIRAMS-alio306755",
    "org": "한국원자력의학원",
    "org_short": "KIRAMS",
@@ -558,6 +584,32 @@
    "checked_at": "2026-11-13T13:04:50+09:00"
   },
   {
+   "id": "KANC-alio307021",
+   "org": "한국나노기술원",
+   "org_short": "KANC",
+   "group": "국책연구소",
+   "title": "2026년 7차 직원(위촉연구원(과제 수행)) 채용 공고",
+   "category": "비정규·기타",
+   "job_types": [
+    "연구",
+    "행정"
+   ],
+   "degrees": [
+    "학사",
+    "석사",
+    "박사"
+   ],
+   "start": "2026-11-13",
+   "end": "2026-11-30",
+   "status": "접수 중",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=307021",
+   "source": "alio",
+   "degree_note": "위촉연구원(계약직) 12개 분야 16명 모두 학사 이상 또는 이와 동등한 자격(경력) 인정자. 반도체·공정 연구 9개 분야, 사업관리 2개·정책관리 1개 분야. 접수 11-30 10:00까지",
+   "evidence": "ALIO 상세(근무분야 행정직·연구직), 공고문 HWP 1. 모집분야 및 인원 표",
+   "checked_by": "claude",
+   "checked_at": "2026-11-16T11:54:30+09:00"
+  },
+  {
    "id": "KIAT-alio306932",
    "org": "한국산업기술진흥원",
    "org_short": "KIAT",
@@ -604,6 +656,56 @@
    "checked_at": "2026-11-09T15:03:29+09:00"
   },
   {
+   "id": "IBS-alio307005",
+   "org": "기초과학연구원",
+   "org_short": "IBS",
+   "group": "국책연구소",
+   "title": "제2026-7회 기초과학연구원 원자제어 저차원 전자계 연구단 연구직 채용 공고",
+   "category": "비정규·기타",
+   "job_types": [
+    "연구",
+    "기술"
+   ],
+   "degrees": [
+    "석사",
+    "박사"
+   ],
+   "start": "2026-11-16",
+   "end": "2026-12-01",
+   "status": "접수 중",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=307005",
+   "source": "alio",
+   "degree_note": "연구직/선임연구원 1명 관련 분야 박사(임용예정일 2027-02-01 기준 취득), 연구기술직 1명(헬륨액화설비·대형실험장비 관리) 석사 이상, 포항 근무",
+   "evidence": "ALIO 상세, 공고문 HWP 채용분야 및 인원 표",
+   "checked_by": "claude",
+   "checked_at": "2026-11-16T11:54:30+09:00"
+  },
+  {
+   "id": "KOPTI-board-2026-11-16-3475",
+   "org": "한국광기술원",
+   "org_short": "KOPTI",
+   "group": "전문연구소·시험기관·국방",
+   "title": "2026년 계약직 수시채용 공고",
+   "category": "비정규·기타",
+   "job_types": [
+    "행정"
+   ],
+   "degrees": [
+    "학사",
+    "석사",
+    "박사"
+   ],
+   "start": "2026-11-16",
+   "end": "2026-12-01",
+   "status": "접수 중",
+   "url": "https://www.kopti.re.kr/ko/Board/3475/detailView.do",
+   "source": "board",
+   "degree_note": "계약직 행정직 1명(임원 의전·업무용 차량관리, 제2종 보통 운전면허 이상), 학력 고졸 이상·전공 무관, 계약기간은 임원 재임 기간, 접수 12-01 17:00까지",
+   "evidence": "게시판 상세(접수기간 11-16~12-01), 공고문 PDF 1쪽 채용분야 표, 직무기술서 PDF(C3-26-05 행정직)",
+   "checked_by": "claude",
+   "checked_at": "2026-11-16T11:54:30+09:00"
+  },
+  {
    "id": "IBS-alio306455",
    "org": "기초과학연구원",
    "org_short": "IBS",
@@ -629,6 +731,31 @@
    "column_title": "포닥 vs 취업, 이공계 박사가 따질 기간·고용형태·지원 시한"
   },
   {
+   "id": "IBS-alio306890",
+   "org": "기초과학연구원",
+   "org_short": "IBS",
+   "group": "국책연구소",
+   "title": "2026-4 Recruitment Announcement for Senior Researcher Positions at the CTPU-CGA",
+   "category": "박사후·연수연구원",
+   "job_types": [
+    "연구"
+   ],
+   "degrees": [
+    "박사"
+   ],
+   "start": "2026-11-16",
+   "end": "2026-12-27",
+   "status": "접수 중",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306890",
+   "source": "alio",
+   "degree_note": "물리학 등 박사(2027-12-16까지 취득), 직함은 선임연구원이나 공고에 사실상 박사후 과정이라고 적힘, 4명, Academic Jobs Online 접수",
+   "evidence": "ALIO 상세, 영문 공고문·직무기술서 docx Recruitment Overview·Qualification",
+   "column_url": "https://www.careerpeak.co.kr/66/?bmode=view&idx=172743137",
+   "column_title": "포닥 vs 취업, 이공계 박사가 따질 기간·고용형태·지원 시한",
+   "checked_by": "claude",
+   "checked_at": "2026-11-16T11:54:30+09:00"
+  },
+  {
    "id": "KETI-board-2026-05-22-148126",
    "org": "한국전자기술연구원",
    "org_short": "KETI",
@@ -652,127 +779,8 @@
    "checked_at": "2026-11-09T15:03:29+09:00"
   }
  ],
- "pending": [
-  {
-   "id": "KANC-alio307021",
-   "org": "한국나노기술원",
-   "org_short": "KANC",
-   "group": "국책연구소",
-   "title": "2026년 7차 직원(위촉연구원(과제 수행)) 채용 공고",
-   "category": "비정규·기타",
-   "job_types": [],
-   "degrees": null,
-   "start": "2026-11-13",
-   "end": "2026-11-30",
-   "status": "접수 중",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=307021",
-   "source": "alio",
-   "reasons": [
-    "지원 학위 확인 필요",
-    "직군 제목에 없음"
-   ],
-   "found_at": "2026-11-14"
-  },
-  {
-   "id": "IBS-alio307005",
-   "org": "기초과학연구원",
-   "org_short": "IBS",
-   "group": "국책연구소",
-   "title": "제2026-7회 기초과학연구원 원자제어 저차원 전자계 연구단 연구직 채용 공고",
-   "category": "기타",
-   "job_types": [
-    "연구"
-   ],
-   "degrees": null,
-   "start": "2026-11-16",
-   "end": "2026-12-01",
-   "status": "접수 중",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=307005",
-   "source": "alio",
-   "reasons": [
-    "지원 학위 확인 필요",
-    "종류 분류 안 됨"
-   ],
-   "found_at": "2026-11-16"
-  },
-  {
-   "id": "IBS-alio306890",
-   "org": "기초과학연구원",
-   "org_short": "IBS",
-   "group": "국책연구소",
-   "title": "2026-4 Recruitment Announcement for Senior Researcher Positions at the CTPU-CGA",
-   "category": "기타",
-   "job_types": [],
-   "degrees": null,
-   "start": "2026-11-16",
-   "end": "2026-12-27",
-   "status": "접수 중",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=306890",
-   "source": "alio",
-   "reasons": [
-    "지원 학위 확인 필요",
-    "종류 분류 안 됨",
-    "직군 제목에 없음"
-   ],
-   "found_at": "2026-11-16"
-  }
- ],
- "review_queue": [
-  {
-   "org_short": "KANC",
-   "org": "한국나노기술원",
-   "group": "국책연구소",
-   "title": "2026년 7차 직원(위촉연구원(과제 수행)) 채용 공고",
-   "board": "https://www.kanc.re.kr/gnb04/snb02_02.do",
-   "reason": "누리집 게시판 새 글",
-   "found_at": "2026-11-14"
-  },
-  {
-   "org_short": "KTL",
-   "org": "한국산업기술시험원",
-   "group": "전문연구소·시험기관·국방",
-   "title": "[조달청 공고] 2027년 KTL SNS 운영 및 홍보시안 제작 용역",
-   "board": "https://www.ktl.re.kr/notice/notice_2/menu1/notice_announcement.do",
-   "reason": "누리집 게시판 새 글",
-   "found_at": "2026-11-14"
-  },
-  {
-   "org_short": "KTL",
-   "org": "한국산업기술시험원",
-   "group": "전문연구소·시험기관·국방",
-   "title": "[조달청 공고] CO2 유동안정성 평가 검증 시스템 제조",
-   "board": "https://www.ktl.re.kr/notice/notice_2/menu1/notice_announcement.do",
-   "reason": "누리집 게시판 새 글",
-   "found_at": "2026-11-14"
-  },
-  {
-   "org_short": "KTL",
-   "org": "한국산업기술시험원",
-   "group": "전문연구소·시험기관·국방",
-   "title": "[취소공고 제2026-1-0186호] 대드론체계 성능시험을 위한 표적드론고정익 운용 용역",
-   "board": "https://www.ktl.re.kr/notice/notice_2/menu1/notice_announcement.do",
-   "reason": "누리집 게시판 새 글",
-   "found_at": "2026-11-14"
-  },
-  {
-   "org_short": "KCL",
-   "org": "한국건설생활환경시험연구원",
-   "group": "전문연구소·시험기관·국방",
-   "title": "한국건설생활환경시험연구원 일반계약직 모집(전북,서울,경기) - 11월 19일 접수마감",
-   "board": "https://www.kcl.re.kr/site/program/board/basicboard/list.do?boardtypeid=88&menuid=001016006001",
-   "reason": "누리집 게시판 새 글",
-   "found_at": "2026-11-14"
-  },
-  {
-   "org_short": "KTL",
-   "org": "한국산업기술시험원",
-   "group": "전문연구소·시험기관·국방",
-   "title": "[공고 제2026-1-0814호] 2026년 공용차량 자동차 보험 가입 용역  N  -->",
-   "board": "https://www.ktl.re.kr/notice/notice_2/menu1/notice_announcement.do",
-   "reason": "누리집 게시판 새 글",
-   "found_at": "2026-11-16"
-  }
- ],
+ "pending": [],
+ "review_queue": [],
  "errors": [
   "KOPTI 게시판: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
  ],
