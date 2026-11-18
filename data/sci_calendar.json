@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-18T12:55:37+09:00",
+ "updated_at": "2026-11-19T06:59:12+09:00",
  "month": "2026-11",
  "note": "정출연 밖 과학기술 공공기관 28곳(data/orgs_sci.json). 캘린더는 items만 띄운다. items = 클로드가 원문으로 확인해 공개한 것. pending = 자동 수집했지만 확인 전. review_queue = 누리집 게시판 새 글. errors = 열리지 않은 출처. excluded = 클로드가 점검에서 뺀 공고. 브라우저로만 열리는 곳은 클로드 점검이 보탠다.",
  "items": [
@@ -375,7 +375,7 @@
    ],
    "start": "2026-11-03",
    "end": "2026-11-18",
-   "status": "접수 중",
+   "status": "마감",
    "url": "https://job.alio.go.kr/recruitview.do?idx=306633",
    "source": "alio",
    "degree_note": "전문계약직기술원 2개 분야, 관련 분야 학사 이상",
@@ -397,7 +397,7 @@
    "degrees": [],
    "start": "2026-11-03",
    "end": "2026-11-18",
-   "status": "접수 중",
+   "status": "마감",
    "url": "https://job.alio.go.kr/recruitview.do?idx=306658",
    "source": "alio",
    "degree_note": "사무기술원 4개 분야 학력·자격 제한 없음(재난안전은 산업안전(산업)기사), 그 밖에 간호사·응급구조사·장애인 아르바이트 분야 포함",
@@ -900,23 +900,123 @@
    "checked_at": "2026-11-18T09:49:35+09:00"
   }
  ],
- "pending": [],
- "review_queue": [],
+ "pending": [
+  {
+   "id": "ADD-alio306990",
+   "org": "국방과학연구소",
+   "org_short": "ADD",
+   "group": "전문연구소·시험기관·국방",
+   "title": "국방과학연구소 '27년 상반기 임용 공개채용",
+   "category": "정규직",
+   "job_types": [],
+   "degrees": null,
+   "start": "2026-11-18",
+   "end": "2026-12-02",
+   "status": "접수 중",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306990",
+   "source": "alio",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "직군 제목에 없음"
+   ],
+   "found_at": "2026-11-19"
+  },
+  {
+   "id": "ADD-23707",
+   "org": "국방과학연구소",
+   "org_short": "ADD",
+   "group": "전문연구소·시험기관·국방",
+   "title": "2027년 상반기 임용 공개채용(정규직)",
+   "category": "정규직",
+   "job_types": [],
+   "degrees": null,
+   "start": "2026-11-18",
+   "end": "2026-12-03",
+   "status": "접수 중",
+   "url": "https://add.applyin.co.kr/jobs/23707",
+   "source": "applyin",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "직군 제목에 없음"
+   ],
+   "found_at": "2026-11-19"
+  },
+  {
+   "id": "ADD-23710",
+   "org": "국방과학연구소",
+   "org_short": "ADD",
+   "group": "전문연구소·시험기관·국방",
+   "title": "2027년 상반기 임용 공개채용(전문계약직-일반/육아휴직 대체)",
+   "category": "비정규·기타",
+   "job_types": [],
+   "degrees": null,
+   "start": "2026-11-18",
+   "end": "2026-12-03",
+   "status": "접수 중",
+   "url": "https://add.applyin.co.kr/jobs/23710",
+   "source": "applyin",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "직군 제목에 없음"
+   ],
+   "found_at": "2026-11-19"
+  },
+  {
+   "id": "ADD-23711",
+   "org": "국방과학연구소",
+   "org_short": "ADD",
+   "group": "전문연구소·시험기관·국방",
+   "title": "2027년 상반기 임용 공개채용(고경력 전문인력(일반/제한))",
+   "category": "정규직",
+   "job_types": [],
+   "degrees": null,
+   "start": "2026-11-18",
+   "end": "2026-12-03",
+   "status": "접수 중",
+   "url": "https://add.applyin.co.kr/jobs/23711",
+   "source": "applyin",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "직군 제목에 없음"
+   ],
+   "found_at": "2026-11-19"
+  },
+  {
+   "id": "ADD-23712",
+   "org": "국방과학연구소",
+   "org_short": "ADD",
+   "group": "전문연구소·시험기관·국방",
+   "title": "2027년 상반기 임용 공개채용(무기계약직)",
+   "category": "비정규·기타",
+   "job_types": [],
+   "degrees": null,
+   "start": "2026-11-18",
+   "end": "2026-12-03",
+   "status": "접수 중",
+   "url": "https://add.applyin.co.kr/jobs/23712",
+   "source": "applyin",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "직군 제목에 없음"
+   ],
+   "found_at": "2026-11-19"
+  }
+ ],
+ "review_queue": [
+  {
+   "org_short": "KRISO",
+   "org": "선박해양플랜트연구소",
+   "group": "국책연구소",
+   "title": "새글  [해양플랜트산업지원센터] 1일 40톤급 선상탄소포집 실증기 탑재 대상선박 모집공고",
+   "board": "https://www.kriso.re.kr/board.es?mid=a10401000000&bid=0010",
+   "reason": "누리집 게시판 새 글",
+   "found_at": "2026-11-19"
+  }
+ ],
  "errors": [
   "KOPTI 게시판: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
  ],
  "excluded": [
-  {
-   "id": "KIRAMS-alio306662",
-   "org": "한국원자력의학원",
-   "org_short": "KIRAMS",
-   "title": "2027년 한국원자력의학원 신규간호사 공개채용 공고",
-   "end": "2026-11-18",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=306662",
-   "reason": "신규간호사(간호직)만 모집. 연구·기술·행정 밖 직무(대표님 확정 2026-11-03)",
-   "excluded_by": "claude",
-   "excluded_at": "2026-11-09"
-  },
   {
    "id": "KIRAMS-alio306752",
    "org": "한국원자력의학원",
