@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated_at": "2026-11-19T06:57:00+09:00",
+ "updated_at": "2026-11-19T11:37:47+09:00",
  "month": "2026-11",
  "note": "캘린더는 items만 띄운다. items = 클로드가 공고 원문으로 학위·직군을 확인해 공개한 것(checked_by 있음). pending = 자동 수집했지만 확인 전. review_queue = 누리집 게시판 새 글(확인 전). errors = 열리지 않은 출처(클로드가 다른 길로 확인). excluded = 클로드가 점검에서 뺀 공고(다시 수집하지 않음).",
  "items": [
@@ -628,32 +628,6 @@
    "checked_at": "2026-11-03T15:28:36+09:00",
    "column_url": "https://www.careerpeak.co.kr/66/?bmode=view&idx=173269003",
    "column_title": "한국기계연구원 채용, 무엇을 보고 뽑는가"
-  },
-  {
-   "id": "KISTI-29",
-   "org": "한국과학기술정보연구원",
-   "org_short": "KISTI",
-   "title": "2027년 1분기 휴직 대체인력 채용",
-   "category": "비정규·기타",
-   "job_types": [
-    "연구",
-    "기술",
-    "행정"
-   ],
-   "degrees": [
-    "학사",
-    "석사",
-    "박사"
-   ],
-   "start": "2026-11-04",
-   "end": "2026-11-19",
-   "status": "접수 중",
-   "url": "https://kisti.fairy.im/announcement/detail/29",
-   "source": "fairy",
-   "degree_note": "연구원(현안해결플랫폼) 박사, 기술원(NTIS센터1) 석사, 행정원·사무원 4개 분야 학력 무관",
-   "evidence": "공고문 PDF 1쪽 모집분야 표(직종), 직무기술서 PDF 분야별 학력",
-   "checked_by": "claude",
-   "checked_at": "2026-11-05T16:29:16+09:00"
   },
   {
    "id": "ETRI-30",
