@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-22T11:42:57+09:00",
+ "updated_at": "2026-11-23T07:01:26+09:00",
  "month": "2026-11",
  "note": "정출연 밖 과학기술 공공기관 28곳(data/orgs_sci.json). 캘린더는 items만 띄운다. items = 클로드가 원문으로 확인해 공개한 것. pending = 자동 수집했지만 확인 전. review_queue = 누리집 게시판 새 글. errors = 열리지 않은 출처. excluded = 클로드가 점검에서 뺀 공고. 브라우저로만 열리는 곳은 클로드 점검이 보탠다.",
  "items": [
@@ -806,32 +806,6 @@
    "checked_at": "2026-11-18T09:49:35+09:00"
   },
   {
-   "id": "KINS-alio307240",
-   "org": "한국원자력안전기술원",
-   "org_short": "KINS",
-   "group": "원자력 안전",
-   "title": "한국원자력안전기술원 2027년 상반기 정규직 직원 채용(보훈제한경쟁)",
-   "category": "정규직",
-   "job_types": [
-    "연구",
-    "행정"
-   ],
-   "degrees": [
-    "학사",
-    "석사",
-    "박사"
-   ],
-   "start": "2026-11-19",
-   "end": "2026-12-04",
-   "status": "접수 중",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=307240",
-   "source": "alio",
-   "degree_note": "국가보훈대상자 제한경쟁(취업지원대상자만): 연구직 정보기술 1명 학사 이상, 행정직 경영관리 1명 학력 제한 없음",
-   "evidence": "ALIO 상세, 공고문 jpg 2쪽 보훈 제한경쟁 표",
-   "checked_by": "claude",
-   "checked_at": "2026-11-20T10:42:24+09:00"
-  },
-  {
    "id": "KINS-alio307238",
    "org": "한국원자력안전기술원",
    "org_short": "KINS",
@@ -854,6 +828,32 @@
    "source": "alio",
    "degree_note": "일반채용 연구직 16개 분야 석사 이상(정보기술 학사 이상), 행정직 경영관리 4명 학력 제한 없음, 원자로조종면허 갱신 연구직 1명 학사 이상(면허 필수). 임용 2027-03-01",
    "evidence": "ALIO 상세, 공고문 jpg 1~3쪽 채용분야·최소학력 표, 응시자격",
+   "checked_by": "claude",
+   "checked_at": "2026-11-20T10:42:24+09:00"
+  },
+  {
+   "id": "KINS-alio307240",
+   "org": "한국원자력안전기술원",
+   "org_short": "KINS",
+   "group": "원자력 안전",
+   "title": "한국원자력안전기술원 2027년 상반기 정규직 직원 채용(보훈제한경쟁)",
+   "category": "정규직",
+   "job_types": [
+    "연구",
+    "행정"
+   ],
+   "degrees": [
+    "학사",
+    "석사",
+    "박사"
+   ],
+   "start": "2026-11-19",
+   "end": "2026-12-04",
+   "status": "접수 중",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=307240",
+   "source": "alio",
+   "degree_note": "국가보훈대상자 제한경쟁(취업지원대상자만): 연구직 정보기술 1명 학사 이상, 행정직 경영관리 1명 학력 제한 없음",
+   "evidence": "ALIO 상세, 공고문 jpg 2쪽 보훈 제한경쟁 표",
    "checked_by": "claude",
    "checked_at": "2026-11-20T10:42:24+09:00"
   },
@@ -1077,20 +1077,10 @@
  "errors": [
   "KTR applyin: <urlopen error timed out>",
   "ADD applyin: <urlopen error timed out>",
-  "KOPTI 게시판: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
+  "KOPTI 게시판: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
+  "KICET 게시판: <urlopen error timed out>"
  ],
  "excluded": [
-  {
-   "id": "KTC-board-2026-11-17-4349",
-   "org": "한국기계전기전자시험연구원",
-   "org_short": "KTC",
-   "title": "2027년 계약직(촉탁직) 채용공고",
-   "end": "2026-11-22",
-   "url": "https://www.ktc.re.kr/web_united/board/view_season_02.asp?pagen=702&sno=4349&paging=1",
-   "reason": "응시자격에 「2026-01-01 이후 KTC 정년퇴임자(2026-12-31 정년퇴임 예정자 포함)」가 있어 일반 지원자가 낼 수 없는 재고용 공고. 대표님 기준 확인 전",
-   "excluded_by": "claude",
-   "excluded_at": "2026-11-18T09:49:35+09:00"
-  },
   {
    "id": "ADD-alio306990",
    "org": "국방과학연구소",
