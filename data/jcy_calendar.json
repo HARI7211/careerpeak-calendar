@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated_at": "2026-11-27T10:29:34+09:00",
+ "updated_at": "2026-11-27T12:39:38+09:00",
  "month": "2026-11",
  "note": "캘린더는 items만 띄운다. items = 클로드가 공고 원문으로 학위·직군을 확인해 공개한 것(checked_by 있음). pending = 자동 수집했지만 확인 전. review_queue = 누리집 게시판 새 글(확인 전). errors = 열리지 않은 출처(클로드가 다른 길로 확인). excluded = 클로드가 점검에서 뺀 공고(다시 수집하지 않음).",
  "items": [
@@ -721,6 +721,28 @@
    "checked_at": "2026-11-09T10:51:32+09:00"
   },
   {
+   "id": "KARI-23672",
+   "org": "한국항공우주연구원",
+   "org_short": "KARI",
+   "title": "한국항공우주연구원 2027년도 동계 연구보조원 모집공고",
+   "category": "인턴·연수",
+   "job_types": [
+    "연구"
+   ],
+   "degrees": [
+    "학사"
+   ],
+   "start": "2026-11-12",
+   "end": "2026-11-23",
+   "status": "마감",
+   "url": "https://kari.applyin.co.kr/jobs/23672",
+   "source": "applyin",
+   "degree_note": "대학 재학생·휴학생 대상(재학생 대상), 8개 코드 중 6개 이공계열 필수(기록물·홍보 지원 2개는 전공 무관), 근무 2027-01-04~01-29 또는 02-26",
+   "evidence": "공고문 PDF 1쪽 응시 자격 표·지원 자격",
+   "checked_by": "claude",
+   "checked_at": "2026-11-13T13:04:50+09:00"
+  },
+  {
    "id": "KIOM-17",
    "org": "한국한의학연구원",
    "org_short": "KIOM",
@@ -795,6 +817,29 @@
    "evidence": "공고문 PDF(붙임1) 1쪽 모집분야 표 학력 열, 공통 지원자격",
    "checked_by": "claude",
    "checked_at": "2026-11-13T13:04:50+09:00"
+  },
+  {
+   "id": "KAERI-29",
+   "org": "한국원자력연구원",
+   "org_short": "KAERI",
+   "title": "2026년도 4분기 기간제근로자(육아휴직 대체인력 및 장애인) 채용",
+   "category": "비정규·기타",
+   "job_types": [
+    "연구",
+    "행정"
+   ],
+   "degrees": [],
+   "start": "2026-11-20",
+   "end": "2026-11-30",
+   "status": "접수 중",
+   "url": "https://kaeri.fairy.im/announcement/detail/29",
+   "source": "fairy",
+   "degree_note": "학력 제한 없음(7개 분야 모두). 기간제계약직(사무행정·연구실 안전·행정업무지원) 7명과 연구실험직(연구시험시설 안전관리·JRTR NTD 사업관리·원자력 교육 운영·연구실험지원) 4명, 육아휴직 대체 및 장애인 제한경쟁, 대전 본원. 접수 11-30 16:00까지",
+   "evidence": "공고 본문 이미지 모집분야 개요 표, 첨부 직무기술서 모음 PDF 학력 칸",
+   "column_url": "https://www.careerpeak.co.kr/66/?bmode=view&idx=173872746",
+   "column_title": "정출연 행정직 채용, 필기·서류·면접은 무엇을 보나",
+   "checked_by": "claude",
+   "checked_at": "2026-11-27T10:47:47+09:00"
   },
   {
    "id": "KIGAM-19",
@@ -913,29 +958,6 @@
    "checked_at": "2026-11-18T09:49:35+09:00"
   },
   {
-   "id": "KAERI-29",
-   "org": "한국원자력연구원",
-   "org_short": "KAERI",
-   "title": "2026년도 4분기 기간제근로자(육아휴직 대체인력 및 장애인) 채용",
-   "category": "비정규·기타",
-   "job_types": [
-    "연구",
-    "행정"
-   ],
-   "degrees": [],
-   "start": "2026-11-20",
-   "end": "2026-11-30",
-   "status": "접수 중",
-   "url": "https://kaeri.fairy.im/announcement/detail/29",
-   "source": "fairy",
-   "degree_note": "학력 제한 없음(7개 분야 모두). 기간제계약직(사무행정·연구실 안전·행정업무지원) 7명과 연구실험직(연구시험시설 안전관리·JRTR NTD 사업관리·원자력 교육 운영·연구실험지원) 4명, 육아휴직 대체 및 장애인 제한경쟁, 대전 본원. 접수 11-30 16:00까지",
-   "evidence": "공고 본문 이미지 모집분야 개요 표, 첨부 직무기술서 모음 PDF 학력 칸",
-   "column_url": "https://www.careerpeak.co.kr/66/?bmode=view&idx=173872746",
-   "column_title": "정출연 행정직 채용, 필기·서류·면접은 무엇을 보나",
-   "checked_by": "claude",
-   "checked_at": "2026-11-27T10:47:47+09:00"
-  },
-  {
    "id": "KAERI-28",
    "org": "한국원자력연구원",
    "org_short": "KAERI",
@@ -1029,34 +1051,34 @@
    "column_title": "정출연 기술직(테크니션)은 무슨 일을 하나요? 역할과 커리어 총정리",
    "checked_by": "claude",
    "checked_at": "2026-11-27T10:47:47+09:00"
-  },
-  {
-   "id": "KARI-23672",
-   "org": "한국항공우주연구원",
-   "org_short": "KARI",
-   "title": "한국항공우주연구원 2027년도 동계 연구보조원 모집공고",
-   "category": "인턴·연수",
-   "job_types": [
-    "연구"
-   ],
-   "degrees": [
-    "학사"
-   ],
-   "start": "2026-11-12",
-   "end": "2026-11-23",
-   "status": "마감",
-   "url": "https://kari.applyin.co.kr/jobs/23672",
-   "source": "applyin",
-   "degree_note": "대학 재학생·휴학생 대상(재학생 대상), 8개 코드 중 6개 이공계열 필수(기록물·홍보 지원 2개는 전공 무관), 근무 2027-01-04~01-29 또는 02-26",
-   "evidence": "공고문 PDF 1쪽 응시 자격 표·지원 자격",
-   "checked_by": "claude",
-   "checked_at": "2026-11-13T13:04:50+09:00"
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "id": "KITECH-132",
+   "org": "한국생산기술연구원",
+   "org_short": "KITECH",
+   "title": "2027학년도 전기 학·연협동 석박사학위과정 신입생 모집(2차)",
+   "category": "기타",
+   "job_types": [],
+   "degrees": null,
+   "start": "2026-11-30",
+   "end": "2026-12-04",
+   "status": "접수 전",
+   "url": "https://kitech.fairy.im/announcement/detail/132",
+   "source": "fairy",
+   "reasons": [
+    "지원 학위 확인 필요",
+    "종류 분류 안 됨",
+    "직군 제목에 없음"
+   ],
+   "found_at": "2026-11-27"
+  }
+ ],
  "review_queue": [],
  "errors": [
-  "KARI: <urlopen error timed out>"
+  "KARI: <urlopen error timed out>",
+  "KIMS 게시판: HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
  ],
  "excluded": []
 }
