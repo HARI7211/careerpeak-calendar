@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated_at": "2026-11-26T13:26:35+09:00",
+ "updated_at": "2026-11-27T10:29:34+09:00",
  "month": "2026-11",
  "note": "캘린더는 items만 띄운다. items = 클로드가 공고 원문으로 학위·직군을 확인해 공개한 것(checked_by 있음). pending = 자동 수집했지만 확인 전. review_queue = 누리집 게시판 새 글(확인 전). errors = 열리지 않은 출처(클로드가 다른 길로 확인). excluded = 클로드가 점검에서 뺀 공고(다시 수집하지 않음).",
  "items": [
@@ -738,7 +738,7 @@
    ],
    "start": "2026-11-11",
    "end": "2026-11-26",
-   "status": "접수 중",
+   "status": "마감",
    "url": "https://kiom.fairy.im/announcement/detail/17",
    "source": "fairy",
    "degree_note": "연구직 A1·A2 석사 이상, A3·A4·A6~A8 박사, A5 한의사·의사 면허, A9 수의사 면허(석사 이상 우대), 기술연구직 B1 방사선사 면허(학력 제한 없음)·B2·B3 이공계 학사 이상, 행정직 학력 제한 없음, 2027년 2월 학위 취득 예정자 지원 가능",

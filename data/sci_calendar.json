@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-26T13:28:47+09:00",
+ "updated_at": "2026-11-27T10:31:44+09:00",
  "month": "2026-11",
  "note": "정출연 밖 과학기술 공공기관 28곳(data/orgs_sci.json). 캘린더는 items만 띄운다. items = 클로드가 원문으로 확인해 공개한 것. pending = 자동 수집했지만 확인 전. review_queue = 누리집 게시판 새 글. errors = 열리지 않은 출처. excluded = 클로드가 점검에서 뺀 공고. 브라우저로만 열리는 곳은 클로드 점검이 보탠다.",
  "items": [
@@ -626,7 +626,7 @@
    ],
    "start": "2026-11-11",
    "end": "2026-11-26",
-   "status": "접수 중",
+   "status": "마감",
    "url": "https://job.alio.go.kr/recruitview.do?idx=306913",
    "source": "alio",
    "degree_note": "정규직 연구직 A01~A04·기술직 A05~A06 박사(+주저자 논문 요건), 기술직(행) 항해사·기관사 학사·석사(최종학위 초과 불가, 면허·승선경력), 무기계약 기술직 B01 학사·석사, 기능직(사업관리·행정, 갑판부원) 고졸 이상, 그 밖에 공무직 미화·경비·조리 포함. 접수는 11-13부터",
@@ -1280,13 +1280,40 @@
    "board": "https://www.ktl.re.kr/notice/notice_2/menu1/notice_announcement.do",
    "reason": "누리집 게시판 새 글",
    "found_at": "2026-11-26"
+  },
+  {
+   "org_short": "KRISO",
+   "org": "선박해양플랜트연구소",
+   "group": "국책연구소",
+   "title": "새글  2026년 하반기 정규직 및 무기계약직 채용계획 사전예고",
+   "board": "https://www.kriso.re.kr/board.es?mid=a10401000000&bid=0010",
+   "reason": "누리집 게시판 새 글",
+   "found_at": "2026-11-27"
+  },
+  {
+   "org_short": "KTL",
+   "org": "한국산업기술시험원",
+   "group": "전문연구소·시험기관·국방",
+   "title": "[자체입찰공고] 「전기차 충전인프라 해외시험인증 종합지원센터 건립증축공사」도급자 관급자재PHC파일",
+   "board": "https://www.ktl.re.kr/notice/notice_2/menu1/notice_announcement.do",
+   "reason": "누리집 게시판 새 글",
+   "found_at": "2026-11-27"
+  },
+  {
+   "org_short": "KTL",
+   "org": "한국산업기술시험원",
+   "group": "전문연구소·시험기관·국방",
+   "title": "[조달청공고] 경기분원 표준지원동 항온항습 공조설비 개선공사기계",
+   "board": "https://www.ktl.re.kr/notice/notice_2/menu1/notice_announcement.do",
+   "reason": "누리집 게시판 새 글",
+   "found_at": "2026-11-27"
   }
  ],
  "errors": [
   "KTR applyin: <urlopen error timed out>",
   "ADD applyin: <urlopen error timed out>",
-  "KOPTI 게시판: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
-  "KICET 게시판: <urlopen error timed out>"
+  "KIDA 게시판: <urlopen error timed out>",
+  "KOPTI 게시판: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
  ],
  "excluded": [
   {
