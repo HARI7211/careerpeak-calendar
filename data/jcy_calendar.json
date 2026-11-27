@@ -911,27 +911,29 @@
    "evidence": "공고문 이미지 1쪽 채용 분야 표, 직무기술서 PDF",
    "checked_by": "claude",
    "checked_at": "2026-11-18T09:49:35+09:00"
-  }
- ],
- "pending": [
+  },
   {
    "id": "KAERI-29",
    "org": "한국원자력연구원",
    "org_short": "KAERI",
    "title": "2026년도 4분기 기간제근로자(육아휴직 대체인력 및 장애인) 채용",
    "category": "비정규·기타",
-   "job_types": [],
-   "degrees": null,
+   "job_types": [
+    "연구",
+    "행정"
+   ],
+   "degrees": [],
    "start": "2026-11-20",
    "end": "2026-11-30",
    "status": "접수 중",
    "url": "https://kaeri.fairy.im/announcement/detail/29",
    "source": "fairy",
-   "reasons": [
-    "지원 학위 확인 필요",
-    "직군 제목에 없음"
-   ],
-   "found_at": "2026-11-21"
+   "degree_note": "학력 제한 없음(7개 분야 모두). 기간제계약직(사무행정·연구실 안전·행정업무지원) 7명과 연구실험직(연구시험시설 안전관리·JRTR NTD 사업관리·원자력 교육 운영·연구실험지원) 4명, 육아휴직 대체 및 장애인 제한경쟁, 대전 본원. 접수 11-30 16:00까지",
+   "evidence": "공고 본문 이미지 모집분야 개요 표, 첨부 직무기술서 모음 PDF 학력 칸",
+   "column_url": "https://www.careerpeak.co.kr/66/?bmode=view&idx=173872746",
+   "column_title": "정출연 행정직 채용, 필기·서류·면접은 무엇을 보나",
+   "checked_by": "claude",
+   "checked_at": "2026-11-27T10:47:47+09:00"
   },
   {
    "id": "KAERI-28",
@@ -939,18 +941,25 @@
    "org_short": "KAERI",
    "title": "2026년도 일반전문계약직 공개채용 공고",
    "category": "비정규·기타",
-   "job_types": [],
-   "degrees": null,
+   "job_types": [
+    "기술"
+   ],
+   "degrees": [
+    "학사",
+    "석사",
+    "박사"
+   ],
    "start": "2026-11-23",
    "end": "2026-12-03",
    "status": "접수 중",
    "url": "https://kaeri.fairy.im/announcement/detail/28",
    "source": "fairy",
-   "reasons": [
-    "지원 학위 확인 필요",
-    "직군 제목에 없음"
-   ],
-   "found_at": "2026-11-24"
+   "degree_note": "일반전문계약직(기술직) 2명. A1 수출용신형연구로 설계검토·건설관리 감독(부산 기장)은 학력 제한 없음이나 건설기술인 특급기술자 10년 이상 경력 필수, A2 운영기술지침서 작성 지원(대전)은 원자력·기계공학 등 학사 이상. 접수 12-03 16:00까지",
+   "evidence": "공고 본문 이미지 모집분야 개요 표, 첨부 직무기술서 PDF 1~2쪽 교육요건·필수자격",
+   "column_url": "https://www.careerpeak.co.kr/66/?bmode=view&idx=172684157",
+   "column_title": "정출연 기술직(테크니션)은 무슨 일을 하나요? 역할과 커리어 총정리",
+   "checked_by": "claude",
+   "checked_at": "2026-11-27T10:47:47+09:00"
   },
   {
    "id": "KITECH-131",
@@ -958,18 +967,19 @@
    "org_short": "KITECH",
    "title": "2026년 제38차 직원 (육아휴직대체) 공개채용",
    "category": "비정규·기타",
-   "job_types": [],
-   "degrees": null,
+   "job_types": [
+    "행정"
+   ],
+   "degrees": [],
    "start": "2026-11-20",
    "end": "2026-12-04",
    "status": "접수 중",
    "url": "https://kitech.fairy.im/announcement/detail/131",
    "source": "fairy",
-   "reasons": [
-    "지원 학위 확인 필요",
-    "직군 제목에 없음"
-   ],
-   "found_at": "2026-11-21"
+   "degree_note": "학력 무관. 육아휴직 대체 계약직(별정직) 행정 3명(사업관리·구매·재무·총무·기획·기술사업화 등), 천안 본원. 접수 12-04 18:00까지",
+   "evidence": "공고 본문 이미지 1. 모집분야 및 응시자격 표(학위 「학력무관」)",
+   "checked_by": "claude",
+   "checked_at": "2026-11-27T10:47:47+09:00"
   },
   {
    "id": "KISTI-30",
@@ -977,18 +987,21 @@
    "org_short": "KISTI",
    "title": "2027년 1분기 청년인턴(체험형 인턴) 선발",
    "category": "인턴·연수",
-   "job_types": [],
-   "degrees": null,
+   "job_types": [
+    "연구",
+    "기술",
+    "행정"
+   ],
+   "degrees": [],
    "start": "2026-11-24",
    "end": "2026-12-09",
    "status": "접수 중",
    "url": "https://kisti.fairy.im/announcement/detail/30",
    "source": "fairy",
-   "reasons": [
-    "지원 학위 확인 필요",
-    "직군 제목에 없음"
-   ],
-   "found_at": "2026-11-24"
+   "degree_note": "성별·학력 제한 없음, 입사일 기준 15~34세 청년. 체험형 청년인턴 약 20개 분야(연구 보조·전산 자원 관리·사업 행정 지원 등, 원문에 직군 표기 없어 업무 내용으로 적음), 대전·서울. 접수 12-09 14:00까지",
+   "evidence": "첨부 공고문 PDF 1~2쪽 모집분야, 3쪽 지원자격",
+   "checked_by": "claude",
+   "checked_at": "2026-11-27T10:47:47+09:00"
   },
   {
    "id": "KRISS-23",
@@ -996,20 +1009,51 @@
    "org_short": "KRISS",
    "title": "2026년 7차 위촉직 공개채용",
    "category": "비정규·기타",
-   "job_types": [],
-   "degrees": null,
+   "job_types": [
+    "기술",
+    "행정"
+   ],
+   "degrees": [
+    "학사",
+    "석사",
+    "박사"
+   ],
    "start": "2026-11-25",
    "end": "2026-12-09",
    "status": "접수 중",
    "url": "https://kriss.fairy.im/announcement/detail/23",
    "source": "fairy",
-   "reasons": [
-    "지원 학위 확인 필요",
-    "직군 제목에 없음"
+   "degree_note": "위촉직 7개 분야. 위촉기술원 큐비트 소자 제작·측정제어 학사 이상, K-퀀텀 국제협력 운영지원 석사 이상, 방사능측정(육아휴직 대체) 석사 이상. 위촉행정원 K-퀀텀 운영지원·총무복지(육아휴직 대체)는 학위 무관, 국가소재데이터센터 운영지원은 학사 이상. 접수 12-09 15:00까지",
+   "evidence": "공고 본문 이미지 채용분야 표, 첨부 직무기술서 ZIP(7개 PDF)",
+   "column_url": "https://www.careerpeak.co.kr/66/?bmode=view&idx=172684157",
+   "column_title": "정출연 기술직(테크니션)은 무슨 일을 하나요? 역할과 커리어 총정리",
+   "checked_by": "claude",
+   "checked_at": "2026-11-27T10:47:47+09:00"
+  },
+  {
+   "id": "KARI-23672",
+   "org": "한국항공우주연구원",
+   "org_short": "KARI",
+   "title": "한국항공우주연구원 2027년도 동계 연구보조원 모집공고",
+   "category": "인턴·연수",
+   "job_types": [
+    "연구"
    ],
-   "found_at": "2026-11-25"
+   "degrees": [
+    "학사"
+   ],
+   "start": "2026-11-12",
+   "end": "2026-11-23",
+   "status": "마감",
+   "url": "https://kari.applyin.co.kr/jobs/23672",
+   "source": "applyin",
+   "degree_note": "대학 재학생·휴학생 대상(재학생 대상), 8개 코드 중 6개 이공계열 필수(기록물·홍보 지원 2개는 전공 무관), 근무 2027-01-04~01-29 또는 02-26",
+   "evidence": "공고문 PDF 1쪽 응시 자격 표·지원 자격",
+   "checked_by": "claude",
+   "checked_at": "2026-11-13T13:04:50+09:00"
   }
  ],
+ "pending": [],
  "review_queue": [],
  "errors": [
   "KARI: <urlopen error timed out>"
